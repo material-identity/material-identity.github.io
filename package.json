@@ -1,0 +1,25 @@
+{
+  "name": "material-identity.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/material-identity/material-identity.github.io.git"
+  },
+  "author": "Hannes Stiebitzhofer",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/material-identity/material-identity.github.io/issues"
+  },
+  "homepage": "https://github.com/material-identity/material-identity.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-mermaidjs": "^1.9.1"
+  }
+}
