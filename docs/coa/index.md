@@ -261,8 +261,6 @@ A list of contacts can be added to a certificate, most prominent the inspection 
 | Email      | The email address of the person or department |    Yes    |   Yes   |
 | Phone      | The phone number of the person or department  |    Yes    |   Yes   |
 
-TODO: `TODO` [Link to full documentation of JSON Schema]() (We could automatically render it as Markdown with e.g. https://github.com/CesiumGS/wetzel)
-
 ## Features
 
 Additional features complement the JSON Schema increasing its utility for the industry.
@@ -550,7 +548,7 @@ In the HTML and PDF view of CoA JSON documents only `FileName` of each attachmen
 
 ## Tools
 
-Tools supporting the validation, testing, and rendering as PDF and HTML are available at https://www.npmjs.com/org/s1seven. These tools implement the features described in the following for easy adoption by users and developers. The source code and documentation can be found at https://github.com/s1seven/schema-tools.
+Tools supporting the validation, testing, and rendering as PDF and HTML are available at [https://www.npmjs.com/org/s1seven](https://www.npmjs.com/org/s1seven). These tools implement the features described in the following for easy adoption by users and developers. The source code and documentation can be found at [https://github.com/s1seven/schema-tools](https://github.com/s1seven/schema-tools).
 
 ## Licensing
 
