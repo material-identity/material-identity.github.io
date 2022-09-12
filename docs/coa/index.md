@@ -505,7 +505,7 @@ It should be noted that the original value for `Property` is used if a value in 
 
 #### Additional languages
 
-See [above](#additional-languages)
+See [above](#additional-languages).
 
 #### Fixing errors
 
