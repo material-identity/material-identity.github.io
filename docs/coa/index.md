@@ -288,7 +288,7 @@ It should be mentioned that a standardized layout of PDF and HTML renderings is 
 
 #### Example
 
-In the example https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json, the language `EN` was specified for rendering.
+In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json), the language `EN` was specified for rendering.
 
 ```JSON
 {
@@ -341,7 +341,7 @@ The objectives are the
 
 #### Example English certificate
 
-In the example https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json the language `EN` was specified for rendering.
+In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
@@ -362,7 +362,7 @@ In the example https://github.com/thematerials-network/CoA-schemas/blob/fdfd563c
 
 #### Example Italian and Polish certificate
 
-In the example https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json the language `EN` was specified for rendering.
+In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
@@ -385,7 +385,7 @@ In the example https://github.com/thematerials-network/CoA-schemas/blob/fdfd563c
 
 Additional languages can be easily added by the following steps:
 
-- Add the ISO code for the new language to `definitions/CertificateLanguages` in https://github.com/thematerials-network/CoA-schemas/blob/main/schema.json.
+- Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/thematerials-network/CoA-schemas/blob/main/schema.json).
 - Add translations for all field names in `<ISO Code>.json` to the repository root.
 - Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](https://github.com/thematerials-network/CoA-documentation/tree/corrections#support-for-standardization-of-properties))
 - Add new fixtures in `test/fixtures` and then to `test/validate.spec.js` and `test/render.spec.js`.
@@ -468,7 +468,7 @@ export enum ExternalStandardsEnum {
   NewStandard = `NewStandardIdentifier`
 }
 ```
-in https://github.com/s1seven/schema-tools/blob/fix-get/packages/types/src/index.ts#L100-L102.
+in [https://github.com/s1seven/schema-tools/blob/fix-get/packages/types/src/index.ts#L100-L102](https://github.com/s1seven/schema-tools/blob/fix-get/packages/types/src/index.ts#L100-L102).
 Add new translations as described in [above](#additional-languages).
 
 ### Multi-language support for property names
@@ -552,4 +552,4 @@ Tools supporting the validation, testing, and rendering as PDF and HTML are avai
 
 ## Licensing
 
-The format definition, examples, translation and tools found in at [Github] are published under APGL 
+The format definition, examples, translation, and the documentation on this site are published under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html). 
