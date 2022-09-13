@@ -2,7 +2,7 @@
 home: true
 sidebar: auto
 title: Digital Certificates of Analysis
-tagline: An approach to moving from difficult to process material certificates in PDF to easy-to-consume digital material certificates unlocking the value of actual material data.
+tagline: An Open Source JSON Schema to create easy-to-consume digital material certificates unlocking the value of actual material data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
