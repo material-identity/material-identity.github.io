@@ -106,4 +106,4 @@ footer: Made by  with ❤️
 
 <h1>Community</h1>
 <p>Initial contributors and early adopters include</p>
-Logos
+<h2>Here go the logos of BASF, Blum, S1Seven and others</h2>
