@@ -48,7 +48,7 @@ tomorrow:
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
 
 documentation:
-  - details: the technical specification of the electronic data format and examples for CoAs for plastics is available at.
+  - details: The technical specification of the electronic data format and examples for CoAs for plastics is available at.
   - details: The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at.
   - details: The contributed tools to support high-quality and fast implementation quickly are available at
 
