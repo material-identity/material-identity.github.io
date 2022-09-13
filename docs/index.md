@@ -2,7 +2,7 @@
 home: true
 sidebar: auto
 title: Digital Certificates of Analysis
-tagline: An approach to moving from difficult to process material certificates in PDF to easy-to-consume digital material certificates unlocking the value of actual material data.
+tagline: An Open Source JSON Schema to create easy-to-consume digital material certificates unlocking the value of actual material data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
@@ -48,7 +48,7 @@ tomorrow:
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
 
 documentation:
-  - details: the technical specification of the electronic data format and examples for CoAs for plastics is available at.
+  - details: The technical specification of the electronic data format and examples for CoAs for plastics is available at.
   - details: The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at.
   - details: The contributed tools to support high-quality and fast implementation quickly are available at
 
@@ -106,4 +106,4 @@ footer: Made by  with ❤️
 
 <h1>Community</h1>
 <p>Initial contributors and early adopters include</p>
-Logos
+<h2>Here go the logos of BASF, Blum, S1Seven and others</h2>
