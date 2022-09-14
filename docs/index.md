@@ -46,8 +46,6 @@ tomorrow:
   - details: New versions add virtual material data such as recycling share and carbon footprint to simplify the world's decarbonization efforts.
   - details: High-quality electronic data are fundamental for the traceability of materials in the circular economy.
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
-
-footer: Made by  with ❤️
 ---
 
 <h1>Yesterday</h1>
@@ -107,4 +105,20 @@ footer: Made by  with ❤️
 
 <h1>Community</h1>
 <p>Initial contributors and early adopters include</p>
-<h2>Here go the logos of BASF, Blum, S1Seven and others</h2>
+<div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
+<img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
+<!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">-->
+<img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="30" margin-top="15px" margin-bottom="15px" style="margin-right: 20px;margin-left: 20px; margin-top: 13px; margin-bottom: 13px"></p>
+</div>
+<!--
+<div class="features" style="border-bottom:0px;">
+  <div class="feature" style="text-align:center">
+    <a href="/terms">Terms and Conditions</a> 
+  </div>
+  <div class="feature" style="text-align:center">
+    <a href="/imprint">Imprint</a> 
+  </div>
+  <div class="feature" style="text-align:center">
+    <a href="/privacy">Privacy</a>
+   </div>
+</div>-->
