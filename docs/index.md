@@ -1,8 +1,8 @@
 ---
 home: true
 sidebar: auto
-title: Digital Certificates of Analysis
-tagline: An Open Source JSON Schema to create easy-to-consume digital material certificates unlocking the value of actual material data.
+title: Digital Certificates of Analysis Format
+tagline: An Open Source JSON data structure to create easy-to-consume digital material certificates unlocking the value of actual material data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
@@ -46,11 +46,6 @@ tomorrow:
   - details: New versions add virtual material data such as recycling share and carbon footprint to simplify the world's decarbonization efforts.
   - details: High-quality electronic data are fundamental for the traceability of materials in the circular economy.
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
-
-documentation:
-  - details: The technical specification of the electronic data format and examples for CoAs for plastics is available at.
-  - details: The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at.
-  - details: The contributed tools to support high-quality and fast implementation quickly are available at
 
 footer: Made by  with ❤️
 ---
@@ -99,8 +94,14 @@ footer: Made by  with ❤️
 
 <h1>Documentation</h1>
 <div class="features">
-  <div class="feature" v-for="feat in $page.frontmatter.documentation">
-    <p>{{ feat.details }}</p>
+  <div class="feature">
+    <p>The technical specification of the electronic data format and examples for CoAs for plastics is available at <a href="https://github.com/thematerials-network/" target="_blank">Coa Schema</a>.</p>
+  </div>
+  <div class="feature">
+    <p>The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at <a href="https://materialidentity.org/coa" target="_blank">CoA Documentation</a>.</p>
+  </div>
+  <div class="feature">
+    <p>The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at <a href="https://github.com/s1seven/schema-tools" target="_blank">Schema Tools</a>.</p>
   </div>
 </div>
 
