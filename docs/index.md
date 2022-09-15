@@ -108,7 +108,9 @@ tomorrow:
 <div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
 <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
 <!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">-->
-<img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="30" margin-top="15px" margin-bottom="15px" style="margin-right: 20px;margin-left: 20px; margin-top: 13px; margin-bottom: 13px"></p>
+<img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
+<img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px"></p>
+
 </div>
 <!--
 <div class="features" style="border-bottom:0px;">
