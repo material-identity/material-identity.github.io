@@ -106,13 +106,31 @@ tomorrow:
 <h1>Community</h1>
 <p>Initial contributors and early adopters include</p>
 <div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
-<img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
-<!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">-->
-<img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
-<img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px"></p>
-<img src="./assets/material.one.png" alt="concircle" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
-
+  <a href="https://basf.com" target="_blank">
+    <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
+  </a>
+  <!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">--></a>
+  <a href="https://concircle.com" target="_blank">
+    <img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
+  </a>
+  <a href="https://s1seven.com" target="_blank">
+    <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
+  </a>
+  <a href="https://material.one" target="_blank">
+    <img src="./assets/material.one.png" alt="concircle" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
+  </a>
+</p>
 </div>
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '151529');
+</script>
+<!-- MailerLite Universal 
+<button class="ml-onclick-form" onclick="ml('show', 'PBjirj', true)">Click here to show form</button>-->
+<!-- End MailerLite Universal -->
 <!--
 <div class="features" style="border-bottom:0px;">
   <div class="feature" style="text-align:center">
