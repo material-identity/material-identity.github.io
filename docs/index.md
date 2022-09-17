@@ -1,8 +1,8 @@
 ---
 home: true
 sidebar: auto
-title: Digital Certificates of Analysis Format
-tagline: An Open Source JSON data structure to create easy-to-consume digital material certificates unlocking the value of actual material data.
+title: Certificates of Analysis
+tagline: An Open Source JSON data structure to create easy-to-consume certificates of analysis data unlocking the value of actual material data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
@@ -110,6 +110,9 @@ tomorrow:
     <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
   </a>
   <!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">--></a>
+   <a href="https://www.synthotec.com" target="_blank">
+    <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 12px; margin-bottom: 12px">
+  </a>
   <a href="https://concircle.com" target="_blank">
     <img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
   </a>
