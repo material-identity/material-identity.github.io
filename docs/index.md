@@ -2,7 +2,7 @@
 home: true
 sidebar: auto
 title: Certificates of Analysis
-tagline: An Open Source JSON data structure to create easy-to-consume certificates of analysis data unlocking the value of actual material data.
+tagline: An Open Source JSON data structure to create easy-to-consume certificates of analysis unlocking the value of actual material data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
@@ -93,7 +93,7 @@ tomorrow:
 <h1>Documentation</h1>
 <div class="features">
   <div class="feature">
-    <p>The technical specification of the electronic data format and examples for CoAs for plastics is available at <a href="https://github.com/thematerials-network/" target="_blank">Coa Schema</a>.</p>
+    <p>The technical specification of the electronic data format and examples for CoAs for plastics is available at <a href="https://github.com/thematerials-network/" target="_blank">CoA Schema</a>.</p>
   </div>
   <div class="feature">
     <p>The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at <a href="https://materialidentity.org/coa" target="_blank">CoA Documentation</a>.</p>
@@ -109,7 +109,7 @@ tomorrow:
   <a href="https://basf.com" target="_blank">
     <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
   </a>
-  <!--<img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px">--></a>
+  <!--<a href="https://blum.com"><img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px"></a>-->
    <a href="https://www.synthotec.com" target="_blank">
     <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 12px; margin-bottom: 12px">
   </a>
