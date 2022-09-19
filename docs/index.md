@@ -56,7 +56,7 @@ tomorrow:
 </div>
 
 <h1>Today</h1>
-<p>BASF SE, in collaboration with Julius Blum Gmbh and S1Seven Gmbh, developed the data format for Certificates of Analysis and released it to the industry as Open Source.</p>
+<p><a href="https://basf.com" target="_blank">BASF SE</a>, in collaboration with <a href="https://blum" target="_blank">Julius Blum Gmbh</a> and <a href="https://s1seven.com" target="_blank">S1Seven Gmbh</a>, developed the data format for Digital Certificates of Analysis and released it to the industry as Open Source.</p>
 <div class="features">
   <div class="feature" v-for="feat in $page.frontmatter.today">
     <p>{{ feat.details }}</p>
