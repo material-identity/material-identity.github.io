@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Digital Certificates of Analysis",
+  title: "Material Identity",
   plugins: ["vuepress-plugin-mermaidjs"],
   themeConfig: {
     repoLabel: 'Git',

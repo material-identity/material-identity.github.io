@@ -1,8 +1,8 @@
 ---
 home: true
 sidebar: auto
-title: Certificates of Analysis
-tagline: An Open Source JSON data structure to create easy-to-consume certificates of analysis unlocking the value of actual material data.
+title: Material Identity
+tagline: An Open Source JSON structure for Digital Certificates of Analysis, unlocking the value of data.
 
 yesterday:
   - details: Every year hundreds of millions of certificates of analysis for metals and plastics are exchanged as PDF documents between companies worldwide.
@@ -113,11 +113,15 @@ tomorrow:
    <a href="https://www.synthotec.com" target="_blank">
     <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 12px; margin-bottom: 12px">
   </a>
-  <a href="https://concircle.com" target="_blank">
-    <img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
-  </a>
+  </p>
+</div>
+<p>Technology Providers</p>
+<div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
   <a href="https://s1seven.com" target="_blank">
     <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
+  </a>
+  <a href="https://concircle.com" target="_blank">
+    <img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
   </a>
   <a href="https://material.one" target="_blank">
     <img src="./assets/material.one.png" alt="concircle" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
