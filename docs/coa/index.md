@@ -449,14 +449,16 @@ In the example, a reference to the standard and its defining body is given in th
         "Method": "DIN EN ISO 1133",
         "Unit": "g/10m_",
         "Value": "31",
-        "ValueType": "number",
-        "Minimum": 0.15,
-        "Maximum": 35,
+        "ValueType": "string",
+        "Minimum": "0.15",
+        "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
     },
 ```
 
 It should be noted that the values for `PropertyStandard` and `PropertyId` are not displayed on HTML and PDF renderings - the only viable target for this information is machines, not humans.
+
+It should also be noted that from version 0.3.0, `ValueType` should be set to string, and `Minimum` and `Maximum` should be strings to allow for correct internationalization without losing trailing zeros.
 
 ### Additional Standards
 
@@ -488,9 +490,9 @@ With the availability of well-defined inspection property identifiers, it is nat
         "Method": "DIN EN ISO 1133",
         "Unit": "g/10m_",
         "Value": "31",
-        "ValueType": "number",
-        "Minimum": 0.15,
-        "Maximum": 35,
+        "ValueType": "string",
+        "Minimum": "0.15",
+        "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
     },
 ```
