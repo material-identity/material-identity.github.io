@@ -56,7 +56,7 @@ tomorrow:
 </div>
 
 <h1>Today</h1>
-<p><a href="https://basf.com" target="_blank">BASF SE</a>, in collaboration with <a href="https://blum" target="_blank">Julius Blum Gmbh</a> and <a href="https://s1seven.com" target="_blank">S1Seven Gmbh</a>, developed the data format for Digital Certificates of Analysis and released it to the industry as Open Source.</p>
+<p><a href="https://basf.com" target="_blank">BASF SE</a>, in collaboration with a leading company in the fittings industry and <a href="https://s1seven.com" target="_blank">S1Seven Gmbh</a>, developed the data format for Digital Certificates of Analysis and released it to the industry as Open Source.</p>
 <div class="features">
   <div class="feature" v-for="feat in $page.frontmatter.today">
     <p>{{ feat.details }}</p>
@@ -109,7 +109,6 @@ tomorrow:
   <a href="https://basf.com" target="_blank">
     <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
   </a>
-  <!--<a href="https://blum.com"><img src="./assets/Blum.png" alt="Julius Blum" width="120" height="60" style="margin-right: 20px;margin-left: 20px"></a>-->
    <a href="https://www.synthotec.com" target="_blank">
     <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 12px; margin-bottom: 12px">
   </a>
