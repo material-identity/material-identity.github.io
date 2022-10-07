@@ -202,7 +202,7 @@ The manufacturer provides the key information about the product - specifically t
 
 #### Analysis
 
-In `Analysis` the results of each inspection, either required by regulation or customer specification, are given.
+In `Analysis` the results of each inspection, either required by regulation or customer specification, are given. As of v1.0.0, `Analysis` is no longer a required property.
 
 | Attribute             | Description                                                                                                                                                                                                                | Mandatory | Visible |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
