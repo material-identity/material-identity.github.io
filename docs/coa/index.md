@@ -457,7 +457,7 @@ In the example, a reference to the standard and its defining body is given in th
 
 It should be noted that the values for `PropertyStandard` and `PropertyId` are not displayed on HTML and PDF renderings - the only viable target for this information is machines, not humans.
 
-It should also be noted that from version 0.3.0, `ValueType` should be set to string, and `Minimum` and `Maximum` should be strings to allow for correct internationalization without losing trailing zeros.
+It should also be noted that from version 0.3.0, `Minimum` and `Maximum` should be strings to allow for correct internationalization without losing trailing zeros.
 
 ### Additional Standards
 
