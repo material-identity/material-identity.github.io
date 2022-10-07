@@ -448,7 +448,7 @@ In the example, a reference to the standard and its defining body is given in th
         "Method": "DIN EN ISO 1133",
         "Unit": "g/10m_",
         "Value": "31",
-        "ValueType": "string",
+        "ValueType": "number",
         "Minimum": "0.15",
         "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
@@ -489,7 +489,7 @@ With the availability of well-defined inspection property identifiers, it is nat
         "Method": "DIN EN ISO 1133",
         "Unit": "g/10m_",
         "Value": "31",
-        "ValueType": "string",
+        "ValueType": "number",
         "Minimum": "0.15",
         "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
