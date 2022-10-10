@@ -236,6 +236,15 @@ It should be noted that the structure supports non-numeric results. The measured
 | Declaration | The text of the declaration of conformity                                                                                                |    Yes    |   Yes   |
 | CE          | Certain products require a CE marking. This property defines all mandatory fields including the CE image to provide it on a certificate. |    No     |   Yes   |
 
+#### Disclaimer
+
+A generic disclaimer.
+
+| Attribute   | Description                                                                                                                              | Mandatory | Visible |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
+| Disclaimer | The text of the Disclaimer                                                                                                |    No    |   Yes   |
+
+
 #### Attachments
 
 Attachments are additional optional data complementing the certificate. Examples could be data sheets, processing instructions, and others. These are not rendered on the certificate.
