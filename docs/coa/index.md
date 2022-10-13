@@ -129,13 +129,12 @@ The parties are the entities that are involved in the business transaction. The 
 | Attribute             | Description                                                                                                                                                                                                                                            | Mandatory | Visible |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------: | :-----: |
 | Name                  | The name of the company                                                                                                                                                                                                                                |    Yes    |   Yes   |
-| AddressLine1          | The first address line                                                                                                                                                                                                                                 |    Yes    |   Yes   |
-| AddressLine2          | A second address line                                                                                                                                                                                                                                  |    No     |   Yes   |
+| Street          | The address, a string or an array of up to three strings line                                                                                                                                                                                                                                 |    Yes    |   Yes   |
 | ZipCode               | The ZIP code                                                                                                                                                                                                                                           |    Yes    |   Yes   |
 | City                  | The city                                                                                                                                                                                                                                               |    Yes    |   Yes   |
 | Country               | The two-letter ISO country code according to https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.                                                                                                                                                         |    Yes    |   Yes   |
-| Email                 | The email address to be used to send certificates to the company.                                                                                                                                                                                      |    Yes    |   Yes   |
-| Identifier            | One or more unique company identifiers. Currently, [VAT](https://ec.europa.eu/taxation_customs/vat-identification-numbers_en), [DUNS](https://www.dnb.com/duns-number.html), and [Cage Codes](https://cage.dla.mil/Info/about#cagecode) are supported. |    Yes    |   No    |
+| Email                 | The email address to be used to send certificates to the company.                                                                                                                                                                                      |    No    |   Yes   |
+| Identifiers           | One or more unique company identifiers. Currently, [VAT](https://ec.europa.eu/taxation_customs/vat-identification-numbers_en), [DUNS](https://www.dnb.com/duns-number.html), and [Cage Codes](https://cage.dla.mil/Info/about#cagecode) are supported. One of `VAT` or `DUNS` is required. |    Yes    |   No    |
 | AdditionalInformation | An array of additional free text information on the company.                                                                                                                                                                                           |    No     |   Yes     |
 
 ##### Business Transaction
@@ -203,7 +202,7 @@ The manufacturer provides the key information about the product - specifically t
 
 #### Analysis
 
-In `Analysis` the results of each inspection, either required by regulation or customer specification, are given.
+In `Analysis` the results of each inspection, either required by regulation or customer specification, are given. As of v1.0.0, `Analysis` is no longer a required property.
 
 | Attribute             | Description                                                                                                                                                                                                                | Mandatory | Visible |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
@@ -236,6 +235,15 @@ It should be noted that the structure supports non-numeric results. The measured
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
 | Declaration | The text of the declaration of conformity                                                                                                |    Yes    |   Yes   |
 | CE          | Certain products require a CE marking. This property defines all mandatory fields including the CE image to provide it on a certificate. |    No     |   Yes   |
+
+#### Disclaimer
+
+A generic disclaimer.
+
+| Attribute   | Description                                                                                                                              | Mandatory | Visible |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
+| Disclaimer | The text of the Disclaimer                                                                                                |    No    |   Yes   |
+
 
 #### Attachments
 
@@ -450,13 +458,15 @@ In the example, a reference to the standard and its defining body is given in th
         "Unit": "g/10m_",
         "Value": "31",
         "ValueType": "number",
-        "Minimum": 0.15,
-        "Maximum": 35,
+        "Minimum": "0.15",
+        "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
     },
 ```
 
 It should be noted that the values for `PropertyStandard` and `PropertyId` are not displayed on HTML and PDF renderings - the only viable target for this information is machines, not humans.
+
+It should also be noted that from version 0.3.0, `Minimum` and `Maximum` should be strings to allow for correct internationalization without losing trailing zeros.
 
 ### Additional Standards
 
@@ -489,8 +499,8 @@ With the availability of well-defined inspection property identifiers, it is nat
         "Unit": "g/10m_",
         "Value": "31",
         "ValueType": "number",
-        "Minimum": 0.15,
-        "Maximum": 35,
+        "Minimum": "0.15",
+        "Maximum": "35",
         "TestConditions": "2,16 kg 190° Celsius"
     },
 ```
