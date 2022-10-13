@@ -127,16 +127,6 @@ tomorrow:
   </a>
 </p>
 </div>
-<script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '151529');
-</script>
-<!-- MailerLite Universal 
-<button class="ml-onclick-form" onclick="ml('show', 'PBjirj', true)">Click here to show form</button>-->
-<!-- End MailerLite Universal -->
 <!--
 <div class="features" style="border-bottom:0px;">
   <div class="feature" style="text-align:center">
