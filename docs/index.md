@@ -46,6 +46,7 @@ tomorrow:
   - details: New versions add virtual material data such as recycling share and carbon footprint to simplify the world's decarbonization efforts.
   - details: High-quality electronic data are fundamental for the traceability of materials in the circular economy.
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
+
 ---
 
 <h1>Yesterday</h1>
@@ -127,16 +128,7 @@ tomorrow:
   </a>
 </p>
 </div>
-<script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
-<!--
-<div class="features" style="border-bottom:0px;">
-  <div class="feature" style="text-align:center">
-    <a href="/terms">Terms and Conditions</a> 
-  </div>
-  <div class="feature" style="text-align:center">
-    <a href="/imprint">Imprint</a> 
-  </div>
-  <div class="feature" style="text-align:center">
-    <a href="/privacy">Privacy</a>
-   </div>
-</div>-->
+
+::: slot footer
+[Terms and Conditions](/terms_conditions) [Privacy Policy](/privacy_policy) [Imprint](/imprint)
+:::
