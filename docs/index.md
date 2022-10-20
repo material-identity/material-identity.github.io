@@ -46,6 +46,7 @@ tomorrow:
   - details: New versions add virtual material data such as recycling share and carbon footprint to simplify the world's decarbonization efforts.
   - details: High-quality electronic data are fundamental for the traceability of materials in the circular economy.
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
+
 ---
 
 <h1>Yesterday</h1>
@@ -128,25 +129,7 @@ tomorrow:
   </a>
 </p>
 </div>
-<script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '151529');
-</script>
-<!-- MailerLite Universal 
-<button class="ml-onclick-form" onclick="ml('show', 'PBjirj', true)">Click here to show form</button>-->
-<!-- End MailerLite Universal -->
-<!--
-<div class="features" style="border-bottom:0px;">
-  <div class="feature" style="text-align:center">
-    <a href="/terms">Terms and Conditions</a> 
-  </div>
-  <div class="feature" style="text-align:center">
-    <a href="/imprint">Imprint</a> 
-  </div>
-  <div class="feature" style="text-align:center">
-    <a href="/privacy">Privacy</a>
-   </div>
-</div>-->
+
+::: slot footer
+[Terms and Conditions](/terms_conditions) [Privacy Policy](/privacy_policy) [Imprint](/imprint)
+:::
