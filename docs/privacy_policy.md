@@ -12,5 +12,5 @@ Nevertheless, if you think that We have infringed GDPR, you have the right to lo
 This Privacy Policy may be updated from time to time. We therefore recommend that Users revisit the Privacy Policy occasionally, and direct any related questions to the following email address xxx. Changes to the Privacy Policy are effective when they’re posted on this page.
 
 ## 4. Contact Us
-If you have any questions about this Privacy Policy, You can contact us at: xxx. When contacting us, You’ll possibly need to provide us with personal information in order for us to process Your inquiry. By doing so, You implicitly consent to and accept to be bound by the Privacy Policy of S1SEVEN GmbH: [https://www.s1seven.com/privacy](https://www.s1seven.com/privacy). 
+If you have any questions about this Privacy Policy, You can contact us at <contact@materialidentity.org>. When contacting us, You’ll possibly need to provide us with personal information in order for us to process Your inquiry. By doing so, You implicitly consent to and accept to be bound by the Privacy Policy of S1SEVEN GmbH: [https://www.s1seven.com/privacy](https://www.s1seven.com/privacy). 
 
