@@ -349,7 +349,7 @@ The objectives are the
 
 #### Example English certificate
 
-In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/thematerials-network/CoA-schemas/blob/main/test/fixtures/vsalid_certificate_2.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
@@ -370,7 +370,7 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 #### Example Italian and Polish certificate
 
-In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/thematerials-network/CoA-schemas/blob/main/test/fixtures/valid_certificate_4.json) the languages `PL` and `IT` were specified for rendering.
 
 ##### Cutout from JSON
 
