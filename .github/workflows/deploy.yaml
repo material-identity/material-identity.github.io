@@ -1,0 +1,44 @@
+name: 'Deploy pages'
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: 16.x
+  DOCS_FOLDER: docs
+  DOCS_VERSION_PATH: /
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install and rebuild API docs
+        run: |
+          npm install &&
+          npm run docs:build
+
+      - name: Deploy API documentation 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: github-pages
+          folder: ${{ env.DOCS_FOLDER }}/.vuepress/dist
+          target-folder: ${{ env.DOCS_VERSION_PATH }}
+          clean: true
+          clean-exclude: |
+            CNAME
