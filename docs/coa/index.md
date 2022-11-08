@@ -300,7 +300,7 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["EN"],
         "Id": "43",
@@ -355,7 +355,7 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["EN"],
         "Id": "43",
@@ -376,7 +376,7 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["PL", "IT"],
         "Id": "43",
