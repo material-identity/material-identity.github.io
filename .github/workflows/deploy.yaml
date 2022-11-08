@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: 16.x
+  NODE_VERSION: 18.x
   DOCS_FOLDER: docs
   DOCS_VERSION_PATH: /
 
@@ -21,7 +21,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - name: Setup node
         uses: actions/setup-node@v3
         with:
