@@ -395,7 +395,7 @@ Additional languages can be easily added by the following steps:
 
 - Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/thematerials-network/CoA-schemas/blob/main/schema.json).
 - Add translations for all field names in `<ISO Code>.json` to the repository root.
-- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](https://github.com/thematerials-network/CoA-documentation/tree/corrections#support-for-standardization-of-properties))
+- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](#support-for-standardization-of-properties))
 - Add new fixtures in `test/fixtures` and then to `test/validate.spec.js` and `test/render.spec.js`.
 - Release a new version of the schema.
 
