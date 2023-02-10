@@ -129,6 +129,8 @@ tomorrow:
 </p>
 </div>
 
+<script data-no-cookie async src="https://cdn.splitbee.io/sb.js"></script>
+
 ::: slot footer
 [Terms and Conditions](/terms_conditions) [Privacy Policy](/privacy_policy) [Imprint](/imprint)
 :::
