@@ -13,15 +13,15 @@ module.exports = {
   ],
   plugins: ["vuepress-plugin-mermaidjs"],
   themeConfig: {
-    repoLabel: 'Git',
-    docsDir: 'docs',
+    repoLabel: "Git",
+    docsDir: "docs",
     nav: [
-        { text: 'Docs', link: '/coa/' },
-        { text: 'About', link: '/about/' }
-    ], 
+      { text: "Docs", link: "/coa/" },
+      { text: "About", link: "/about/" },
+    ],
     sidebar: [
-      ['/coa/', 'Docs'],
-      ['/about/', 'About'],
-    ]
-  }
+      ["/coa/", "Docs"],
+      ["/about/", "About"],
+    ],
+  },
 };
