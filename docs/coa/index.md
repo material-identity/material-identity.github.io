@@ -98,6 +98,7 @@ Based on previous experiences and the analysis of many certificates in a PoC pro
 ## CoA Structure
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph TD
     CoA[Certificarte of Analysis]-->Parties[Parties]
     Parties-->Manufacturer[Manufacturer]
