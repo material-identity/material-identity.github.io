@@ -22,6 +22,7 @@
     - [Analysis](#analysis)
       - [Inspection](#inspection)
     - [Declaration of Conformance](#declaration-of-conformance)
+    - [Disclaimer](#disclaimer)
     - [Attachments](#attachments)
     - [Contacts](#contacts)
 - [Features](#features)
@@ -98,6 +99,7 @@ Based on previous experiences and the analysis of many certificates in a PoC pro
 ## CoA Structure
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph TD
     CoA[Certificarte of Analysis]-->Parties[Parties]
     Parties-->Manufacturer[Manufacturer]
@@ -117,7 +119,7 @@ graph TD
 
 | Attribute            | Description                                                                                                                                                                           | Mandatory | Visible |
 | -------------------- | ------------------------------------------------------------ | :-------: | -------------- |
-| CertificateLanguages | One or two languages can be specified into which the property names on the PDF and HTML renderings are translated. The format is defined by [ISO 639-1:2002](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). The languages supported by a version are defined in the property [CertificateLanguages](https://github.com/thematerials-network/CoA-schemas/blob/f9b14a45c7576402637d819b4c50f02579d9a077/schema.json#L43) |    Yes    |   No    |
+| CertificateLanguages | One or two languages can be specified into which the property names on the PDF and HTML renderings are translated. The format is defined by [ISO 639-1:2002](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). The languages supported by a version are defined in the property [CertificateLanguages](https://github.com/material-identity/CoA-schemas/blob/f9b14a45c7576402637d819b4c50f02579d9a077/schema.json#L43) |    Yes    |   No    |
 | Id                   | The certificate identifier                                                                                                                                                            |    Yes    |   Yes   |
 | Date                 | The certificate issuing date                                                                                                                                                          |    Yes    |   Yes   |
 | Standard             | The standard defining the certificate. Consists of the required property `name`, e.g. "EN 10204" and the optional property `type`, for the class of certificate, e.g. "3.1" for EN 101204 certificates.                                                                                                                                                                                                   |    Yes    |   Yes   |
@@ -296,7 +298,7 @@ It should be mentioned that a standardized layout of PDF and HTML renderings is 
 
 #### Example
 
-In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json), the language `EN` was specified for rendering.
+In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json), the language `EN` was specified for rendering.
 
 ```JSON
 {
@@ -349,7 +351,7 @@ The objectives are the
 
 #### Example English certificate
 
-In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
@@ -370,7 +372,7 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 #### Example Italian and Polish certificate
 
-In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
@@ -393,15 +395,15 @@ In the [example](https://github.com/thematerials-network/CoA-schemas/blob/fdfd56
 
 Additional languages can be easily added by the following steps:
 
-- Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/thematerials-network/CoA-schemas/blob/main/schema.json).
+- Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/material-identity/CoA-schemas/blob/main/schema.json).
 - Add translations for all field names in `<ISO Code>.json` to the repository root.
-- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](https://github.com/thematerials-network/CoA-documentation/tree/corrections#support-for-standardization-of-properties))
+- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](https://github.com/material-identity/CoA-documentation/tree/corrections#support-for-standardization-of-properties))
 - Add new fixtures in `test/fixtures` and then to `test/validate.spec.js` and `test/render.spec.js`.
 - Release a new version of the schema.
 
 #### Fixing errors
 
-Despite working with an ISO 17100 certified translation provider there will be errors which users can report easily by submitting a bug report on [Github](https://github.com/thematerials-network/CoA-schemas/issues).
+Despite working with an ISO 17100 certified translation provider there will be errors which users can report easily by submitting a bug report on [Github](https://github.com/material-identity/CoA-schemas/issues).
 
 ### Support for standardization of properties
 
@@ -440,7 +442,7 @@ Such a list can be easily imported into a QM system and mapped to existing inspe
     "9": { "Property": "Tensile creep modulus", "TestConditions": "1000h" },
 ```
 
-[Full list with english names and test conditions](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/EN.json).
+[Full list with english names and test conditions](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/EN.json).
 
 #### Example
 
@@ -507,7 +509,7 @@ With the availability of well-defined inspection property identifiers, it is nat
 
 #### Cutout from PDF
 
-In the example the target language is Turkish. The Turkish translation for the `property` `MFR` is looked up via `PropertyId` from the [full list of Turkish names and test conditions](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/TR.json).
+In the example the target language is Turkish. The Turkish translation for the `property` `MFR` is looked up via `PropertyId` from the [full list of Turkish names and test conditions](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/TR.json).
 
 ![Turkish translation of inspection properties](./assets/turkish_inspection_properties.png "Turkish translation of inspection properties")
 
@@ -519,7 +521,7 @@ See [above](#additional-languages).
 
 #### Fixing errors
 
-Despite working with an ISO 17100 certified translation provider there might be errors which users can report easily by submitting a bug report on [Github](https://github.com/thematerials-network/CoA-schemas/issues).
+Despite working with an ISO 17100 certified translation provider there might be errors which users can report easily by submitting a bug report on [Github](https://github.com/material-identity/CoA-schemas/issues).
 
 ### Attachments
 
