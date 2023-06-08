@@ -22,6 +22,7 @@
     - [Analysis](#analysis)
       - [Inspection](#inspection)
     - [Declaration of Conformance](#declaration-of-conformance)
+    - [Disclaimer](#disclaimer)
     - [Attachments](#attachments)
     - [Contacts](#contacts)
 - [Features](#features)
