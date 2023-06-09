@@ -245,7 +245,6 @@ A generic disclaimer.
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
 | Disclaimer | The text of the Disclaimer                                                                                                |    No    |   Yes   |
 
-
 #### Attachments
 
 Attachments are additional optional data complementing the certificate. Examples could be data sheets, processing instructions, and others. These are not rendered on the certificate.
@@ -394,7 +393,7 @@ In the [example](https://github.com/material-identity/CoA-schemas/blob/main/test
 
 Additional languages can be easily added by the following steps:
 
-- Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/material-identity/CoA-schemas/blob/main/schema.json).
+- Add the ISO code for the new language to [CertificateLanguages](https://schemas.s1seven.com/schema-definitions/v0.0.7/languages/languages.json).
 - Add translations for all field names in `<ISO Code>.json` to the repository root.
 - Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](#support-for-standardization-of-properties))
 - Add new fixtures in `test/fixtures` and then to `test/validate.spec.js` and `test/render.spec.js`.
@@ -441,7 +440,7 @@ Such a list can be easily imported into a QM system and mapped to existing inspe
     "9": { "Property": "Tensile creep modulus", "TestConditions": "1000h" },
 ```
 
-[Full list with english names and test conditions](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/EN.json).
+[Full list with english names and test conditions](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/EN.json).
 
 #### Example
 
@@ -508,7 +507,7 @@ With the availability of well-defined inspection property identifiers, it is nat
 
 #### Cutout from PDF
 
-In the example the target language is Turkish. The Turkish translation for the `property` `MFR` is looked up via `PropertyId` from the [full list of Turkish names and test conditions](https://github.com/thematerials-network/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/TR.json).
+In the example the target language is Turkish. The Turkish translation for the `property` `MFR` is looked up via `PropertyId` from the [full list of Turkish names and test conditions](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/CAMPUS/TR.json).
 
 ![Turkish translation of inspection properties](./assets/turkish_inspection_properties.png "Turkish translation of inspection properties")
 
@@ -520,7 +519,7 @@ See [above](#additional-languages).
 
 #### Fixing errors
 
-Despite working with an ISO 17100 certified translation provider there might be errors which users can report easily by submitting a bug report on [Github](https://github.com/thematerials-network/CoA-schemas/issues).
+Despite working with an ISO 17100 certified translation provider there might be errors which users can report easily by submitting a bug report on [Github](https://github.com/material-identity/CoA-schemas/issues).
 
 ### Attachments
 
