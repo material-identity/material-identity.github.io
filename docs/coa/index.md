@@ -99,6 +99,7 @@ Based on previous experiences and the analysis of many certificates in a PoC pro
 ## CoA Structure
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 graph TD
     CoA[Certificarte of Analysis]-->Parties[Parties]
     Parties-->Manufacturer[Manufacturer]
@@ -371,6 +372,7 @@ In the [example](https://github.com/material-identity/CoA-schemas/blob/main/test
 #### Example Italian and Polish certificate
 
 In the [example](https://github.com/material-identity/CoA-schemas/blob/main/test/fixtures/valid_certificate_4.json) the languages `PL` and `IT` were specified for rendering.
+
 
 ##### Cutout from JSON
 
