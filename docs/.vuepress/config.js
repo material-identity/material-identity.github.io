@@ -5,11 +5,13 @@ module.exports = {
     repoLabel: 'Git',
     docsDir: 'docs',
     nav: [
-        { text: 'Docs', link: '/coa/' },
+        { text: 'CoA', link: '/coa/' },
+        { text: 'EN10168', link: '/en10168/' },
         { text: 'About', link: '/about/' }
     ], 
     sidebar: [
-      ['/coa/', 'Docs'],
+      ['/coa/', 'CoA'],
+      ['/en10168/', 'EN10168'],
       ['/about/', 'About'],
     ]
   }
