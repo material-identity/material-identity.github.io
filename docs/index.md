@@ -94,7 +94,7 @@ tomorrow:
 <h1>Documentation</h1>
 <div class="features">
   <div class="feature">
-    <p>The technical specification of the electronic data format and examples for CoAs for plastics is available at <a href="https://github.com/thematerials-network/" target="_blank">CoA Schema</a>.</p>
+    <p>The technical specification of the electronic data format and examples for CoAs for plastics is available at <a href="https://github.com/material-identity/" target="_blank">CoA Schema</a>.</p>
   </div>
   <div class="feature">
     <p>The format documentation and description of features maximizing the utility for a broad spectrum of applications are available at <a href="https://materialidentity.org/coa" target="_blank">CoA Documentation</a>.</p>
