@@ -246,7 +246,6 @@ A generic disclaimer.
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
 | Disclaimer | The text of the Disclaimer                                                                                                |    No    |   Yes   |
 
-
 #### Attachments
 
 Attachments are additional optional data complementing the certificate. Examples could be data sheets, processing instructions, and others. These are not rendered on the certificate.
@@ -302,7 +301,7 @@ In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["EN"],
         "Id": "43",
@@ -351,13 +350,13 @@ The objectives are the
 
 #### Example English certificate
 
-In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/material-identity/CoA-schemas/blob/main/test/fixtures/valid_certificate_2.json) the language `EN` was specified for rendering.
 
 ##### Cutout from JSON
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["EN"],
         "Id": "43",
@@ -372,13 +371,14 @@ In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb
 
 #### Example Italian and Polish certificate
 
-In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb2fd0f8cd2e4bf55e3540d34047e3eb1/test/fixtures/valid_certificate_4.json) the language `EN` was specified for rendering.
+In the [example](https://github.com/material-identity/CoA-schemas/blob/main/test/fixtures/valid_certificate_4.json) the languages `PL` and `IT` were specified for rendering.
+
 
 ##### Cutout from JSON
 
 ```JSON
 {
-    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v0.2.0/schema.json",
+    "RefSchemaUrl": "https://schemas.s1seven.com/coa-schemas/v1.0.0/schema.json",
     "Certificate": {
         "CertificateLanguages": ["PL", "IT"],
         "Id": "43",
@@ -395,9 +395,9 @@ In the [example](https://github.com/material-identity/CoA-schemas/blob/fdfd563cb
 
 Additional languages can be easily added by the following steps:
 
-- Add the ISO code for the new language to [definitions/CertificateLanguages](https://github.com/material-identity/CoA-schemas/blob/main/schema.json).
+- Add the ISO code for the new language to [CertificateLanguages](https://schemas.s1seven.com/schema-definitions/v0.0.7/languages/languages.json).
 - Add translations for all field names in `<ISO Code>.json` to the repository root.
-- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](https://github.com/material-identity/CoA-documentation/tree/corrections#support-for-standardization-of-properties))
+- Add translations for all CAMPUS properties in `CAMPUS/<ISO Code>.json` (for details refer to section [Support for standardization of property names](#support-for-standardization-of-properties))
 - Add new fixtures in `test/fixtures` and then to `test/validate.spec.js` and `test/render.spec.js`.
 - Release a new version of the schema.
 

@@ -16,12 +16,14 @@ module.exports = {
     repoLabel: "Git",
     docsDir: "docs",
     nav: [
-      { text: "Docs", link: "/coa/" },
-      { text: "About", link: "/about/" },
-    ],
+        { text: 'CoA', link: '/coa/' },
+        { text: 'EN 10168', link: '/en10168/' },
+        { text: 'About', link: '/about/' }
+    ], 
     sidebar: [
-      ["/coa/", "Docs"],
-      ["/about/", "About"],
-    ],
-  },
+      ['/coa/', 'CoA'],
+      ['/en10168/', 'EN 10168'],
+      ['/about/', 'About'],
+    ]
+  }
 };
