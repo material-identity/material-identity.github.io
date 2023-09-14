@@ -121,13 +121,13 @@ tomorrow:
     <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
   </a>
   <a href="https://concircle.com" target="_blank">
-    <img src="./assets/CONCIRCLE.png" alt="concircle" height="24" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
+    <img src="./assets/CONCIRCLE.png" alt="concircle" height="26" style="margin-right: 20px;margin-left: 20p; margin-top: 16px; margin-bottom: 16px">
   </a>
   <a href="https://material.one" target="_blank">
-    <img src="./assets/material.one.png" alt="concircle" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
+    <img src="./assets/material.one.png" alt="material.one" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
   </a>
     <a href="https://www.icxp.eu" target="_blank">
-    <img src="./assets/industrious.png" alt="concircle" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
+    <img src="./assets/industrious.png" alt="Industrious" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
   </a>
 </p>
 </div>
