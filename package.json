@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:deploy": "./deploy.sh"
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,7 @@
   },
   "homepage": "https://github.com/material-identity/material-identity.github.io#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7",
+    "vuepress": "^1.9.10",
     "vuepress-plugin-mermaidjs": "^1.9.1"
   }
 }
