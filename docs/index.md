@@ -115,7 +115,7 @@ tomorrow:
   </a>
   </p>
 </div>
-<p>Technology Providers</p>
+<p>Technology and Service Providers</p>
 <div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
   <a href="https://s1seven.com" target="_blank">
     <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
@@ -125,6 +125,9 @@ tomorrow:
   </a>
   <a href="https://material.one" target="_blank">
     <img src="./assets/material.one.png" alt="concircle" height="34" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
+  </a>
+    <a href="https://www.icxp.eu" target="_blank">
+    <img src="./assets/industrious.png" alt="concircle" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
   </a>
 </p>
 </div>
