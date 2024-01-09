@@ -123,8 +123,11 @@ tomorrow:
   <a href="https://www.icxp.eu" target="_blank">
     <img src="./assets/industrious.png" alt="Industrious" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
   </a>
+      <a href="https://www.motan-group.com" target="_blank">
+    <img src="./assets/motan.png" alt="motan group" height="68" style="margin-right: 20px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
+  </a>
     <a href="https://www.plus10.de" target="_blank">
-    <img src="./assets/plus10.png" alt="Industrious" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
+    <img src="./assets/plus10.png" alt="Plus10" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
   </a>
   <a href="https://material.one" target="_blank">
     <img src="./assets/material.one.png" alt="material.one" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
