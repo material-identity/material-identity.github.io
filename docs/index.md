@@ -108,10 +108,13 @@ tomorrow:
 <p>Initial contributors and early adopters include</p>
 <div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
   <a href="https://basf.com" target="_blank">
-    <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 20px;margin-left: 20px">
+    <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 30px;margin-left: 20px">
+  </a>
+  <a href="https://www.stahlo.de/" target="_blank">
+    <img src="./assets/STAHLO.png" alt="STAHLO" height="82" style="margin-right: 30px;margin-left: 30px; margin-top: -4px; margin-bottom: -10px">
   </a>
    <a href="https://www.synthotec.com" target="_blank">
-    <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 12px; margin-bottom: 12px">
+    <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 30px; margin-top: 12px; margin-bottom: 12px">
   </a>
   </p>
 </div>
