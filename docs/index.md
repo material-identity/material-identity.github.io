@@ -106,7 +106,7 @@ tomorrow:
 
 <h1>Community</h1>
 <p>Initial contributors and early adopters include</p>
-<div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
+<div class="footer" style="border-top:0px; margin-top: -50px; margin-bottom: -30px"><p class="description">
   <a href="https://basf.com" target="_blank">
     <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 30px;margin-left: 20px">
   </a>
@@ -118,8 +118,15 @@ tomorrow:
   </a>
   </p>
 </div>
+<p>Research Institutions</p>
+<div class="footer" style="border-top:0px; margin-top: -50px; margin-bottom: -35px"><p class="description">
+  <a href="https://skz.de" target="_blank">
+    <img src="./assets/SKZ.png" alt="SKZ" height="70">
+  </a>
+</p>
+</div>
 <p>Technology and Service Providers</p>
-<div class="footer" style="border-top:0px; padding-top: 10px;"><p class="description">
+<div class="footer" style="border-top:0px; margin-top: -60px; margin-bottom: -20px"><p class="description">
   <a href="https://s1seven.com" target="_blank">
     <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
   </a>
