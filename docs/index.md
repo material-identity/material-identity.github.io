@@ -46,7 +46,6 @@ tomorrow:
   - details: New versions add virtual material data such as recycling share and carbon footprint to simplify the world's decarbonization efforts.
   - details: High-quality electronic data are fundamental for the traceability of materials in the circular economy.
   - details: Principles of good open source projects are applied to evolve standards fast in the highest quality.
-
 ---
 
 <h1>Yesterday</h1>
@@ -108,13 +107,13 @@ tomorrow:
 <p>Initial contributors and early adopters include</p>
 <div class="footer" style="border-top:0px; margin-top: -50px; margin-bottom: -30px"><p class="description">
   <a href="https://basf.com" target="_blank">
-    <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 30px;margin-left: 20px">
+    <img src="./assets/BASF.png" alt="BASF SE" width="120" height="60" style="margin-right: 30px;margin-left: 30px">
   </a>
   <a href="https://www.stahlo.de/" target="_blank">
     <img src="./assets/STAHLO.png" alt="STAHLO" height="82" style="margin-right: 30px;margin-left: 30px; margin-top: -4px; margin-bottom: -10px">
   </a>
    <a href="https://www.synthotec.com" target="_blank">
-    <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 20px;margin-left: 30px; margin-top: 12px; margin-bottom: 12px">
+    <img src="./assets/synthotec.png" alt="SynthoTec" height="32" style="margin-right: 30px;margin-left: 30px; margin-top: 12px; margin-bottom: 12px">
   </a>
   </p>
 </div>
@@ -126,21 +125,27 @@ tomorrow:
 </p>
 </div>
 <p>Technology and Service Providers</p>
-<div class="footer" style="border-top:0px; margin-top: -60px; margin-bottom: -20px"><p class="description">
+<div class="footer" style="border-top:0px; margin-top: -60px; margin-bottom: -30px">
+<p class="description">
   <a href="https://s1seven.com" target="_blank">
-    <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 20px;margin-left: 20px; margin-top: 16px; margin-bottom: 16px">
+    <img src="./assets/S1SEVEN.png" alt="S1SEVEN" height="24" style="margin-right: 30px;margin-left: 30px; margin-top: 16px; margin-bottom: 16px">
   </a>
   <a href="https://www.icxp.eu" target="_blank">
-    <img src="./assets/industrious.png" alt="Industrious" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
+    <img src="./assets/industrious.png" alt="Industrious" height="42" style="margin-right: 30px;margin-left: 20p; margin-top: 15px; margin-bottom: 11px">
   </a>
-      <a href="https://www.motan-group.com" target="_blank">
-    <img src="./assets/motan.png" alt="motan group" height="68" style="margin-right: 20px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
+  <a href="https://www.motan-group.com" target="_blank">
+    <img src="./assets/motan.png" alt="motan group" height="68" style="margin-right: 30px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
   </a>
-    <a href="https://www.plus10.de" target="_blank">
-    <img src="./assets/plus10.png" alt="Plus10" height="42" style="margin-right: 20px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
+</p>
+<p class="description">
+  <a href="https://www.plus10.de" target="_blank">
+    <img src="./assets/plus10.png" alt="Plus10" height="42" style="margin-right: 30px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
+  </a>
+  <a href="https://www.imat-uve.de" target="_blank">
+    <img src="./assets/imat_uve.png" alt="imat-uve" height="72" style="margin-right: 30px;margin-left: 20p; margin-top: 13px; margin-bottom: -2px">
   </a>
   <a href="https://material.one" target="_blank">
-    <img src="./assets/material.one.png" alt="material.one" height="32" style="margin-right: 20px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
+    <img src="./assets/material.one.png" alt="material.one" height="32" style="margin-right: 30px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
   </a>
 </p>
 </div>
