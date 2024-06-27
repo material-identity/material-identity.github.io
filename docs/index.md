@@ -136,6 +136,9 @@ tomorrow:
   <a href="https://www.motan-group.com" target="_blank">
     <img src="./assets/motan.png" alt="motan group" height="68" style="margin-right: 30px;margin-left: 20p; margin-top: 19px; margin-bottom: 8px">
   </a>
+  <a href="https://www.metalsxp.com" target="_blank">
+    <img src="./assets/MetalsXP.png" alt="MetalsXP" height="38" style="margin-right: 30px;margin-left: 20p; margin-top: 13px; margin-bottom: 12px">
+  </a>
 </p>
 <p class="description">
   <a href="https://www.plus10.de" target="_blank">
