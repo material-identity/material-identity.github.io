@@ -1,6 +1,61 @@
-# Introduction
+# Digital Material Passport (DMP) for Forestry
 
-## Digital Material Passport (DMP) for Forestry
+## Table of Content
+
+- [Digital Material Passport (DMP) for Forestry](#digital-material-passport-dmp-for-forestry)
+  - [Table of Content](#table-of-content)
+  - [Introduction](#introduction)
+    - [Purpose of DMP for Forestry](#purpose-of-dmp-for-forestry)
+    - [Current Situation](#current-situation)
+    - [Design Goals](#design-goals)
+  - [DMP Schema Structure](#dmp-schema-structure)
+- [ForestrySource Schema](#forestrysource-schema)
+  - [Structure Overview](#structure-overview)
+    - [General Information](#general-information)
+    - [Harvest Units](#harvest-units)
+    - [Products](#products)
+    - [Companies](#companies)
+    - [Documents](#documents)
+    - [Due Diligence Statement](#due-diligence-statement)
+- [Forestry Schema](#forestry-schema)
+  - [Structure Overview](#structure-overview-1)
+    - [Certificate Information](#certificate-information)
+    - [General Information](#general-information-1)
+    - [Business Transaction](#business-transaction)
+      - [Purchase Order](#purchase-order)
+      - [Sales Order](#sales-order)
+      - [Delivery](#delivery)
+    - [Products](#products-1)
+    - [Companies](#companies-1)
+    - [Documents](#documents-1)
+    - [DMP References](#dmp-references)
+    - [Due Diligence Statement](#due-diligence-statement-1)
+- [Features](#features)
+  - [Standardization of Data Format](#standardization-of-data-format)
+    - [Current Situation](#current-situation-1)
+    - [Objectives](#objectives)
+    - [Solution](#solution)
+  - [Rendering in Multiple Languages](#rendering-in-multiple-languages)
+    - [Current Situation](#current-situation-2)
+    - [Objectives](#objectives-1)
+    - [Implementation](#implementation)
+  - [Supporting Documentation](#supporting-documentation)
+    - [Current Situation](#current-situation-3)
+    - [Solution](#solution-1)
+  - [Chain of Custody](#chain-of-custody)
+    - [Current Situation](#current-situation-4)
+    - [Solution](#solution-2)
+  - [Geographical Data](#geographical-data)
+    - [Current Situation](#current-situation-5)
+    - [Solution](#solution-3)
+- [Tools](#tools)
+- [Licensing](#licensing)
+- [Examples](#examples)
+  - [Example 1: Basic Forestry DMP](#example-1-basic-forestry-dmp)
+  - [Example 2: Basic ForestrySource DMP](#example-2-basic-forestrysource-dmp)
+
+
+## Introduction
 
 ### Purpose of DMP for Forestry
 
