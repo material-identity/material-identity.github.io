@@ -18,11 +18,13 @@ module.exports = {
     nav: [
         { text: 'CoA', link: '/coa/' },
         { text: 'EN 10168', link: '/en10168/' },
+        { text: 'Forestry', link: '/forestry/' },
         { text: 'About', link: '/about/' }
     ], 
     sidebar: [
       ['/coa/', 'CoA'],
       ['/en10168/', 'EN 10168'],
+      ['/forestry/', 'Forestry'],
       ['/about/', 'About'],
     ]
   }
