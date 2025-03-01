@@ -1,10 +1,12 @@
 # EN 10168 Mill certificates
 
+## Table of Content
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
 - [EN 10168 Mill certificates](#en-10168-mill-certificates)
+  - [Table of Content](#table-of-content)
   - [Introduction](#introduction)
     - [Examples](#examples)
   - [Current situation](#current-situation)
