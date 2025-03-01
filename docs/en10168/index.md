@@ -452,7 +452,7 @@ Translation errors can be reported by submitting a bug report on [Github](https:
 
 ## Tools
 
-Tools supporting the validation, testing, and rendering as PDF and HTML are available at [https://www.npmjs.com/org/s1seven](https://www.npmjs.com/org/s1seven). These tools implement the features described in the following for easy adoption by users and developers. The source code and documentation can be found at [https://github.com/s1seven/schema-tools](https://github.com/s1seven/schema-tools).
+Tools supporting the validation, testing, and rendering of Forestry and ForestrySource schemas as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
 
 ## Licensing
 
