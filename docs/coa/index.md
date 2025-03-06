@@ -561,7 +561,7 @@ In the HTML and PDF view of CoA JSON documents only `FileName` of each attachmen
 
 ## Tools
 
-Tools supporting the validation, testing, and rendering of Forestry and ForestrySource schemas as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
+Tools supporting the validation, testing, and rendering of JSON as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
 
 ## Licensing
 

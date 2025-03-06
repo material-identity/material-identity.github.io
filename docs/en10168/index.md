@@ -454,7 +454,7 @@ Translation errors can be reported by submitting a bug report on [Github](https:
 
 ## Tools
 
-Tools supporting the validation, testing, and rendering schemas as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
+Tools supporting the validation, testing, and rendering JSON as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
 
 ## Licensing
 
