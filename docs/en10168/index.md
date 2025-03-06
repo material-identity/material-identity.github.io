@@ -1,48 +1,51 @@
 # EN 10168 Mill certificates
 
+## Table of Content
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Introduction](#introduction)
-  - [Examples](#examples)
-- [Current situation](#current-situation)
-  - [Description of products](#description-of-products)
-  - [Identification of the product](#identification-of-the-product)
-  - [Chemical Analysis](#chemical-analysis)
-  - [Conclusion](#conclusion)
-  - [Objectives for a new format](#objectives-for-a-new-format)
-- [Components](#components)
-  - [Chemical Element](#chemical-element)
-  - [Company](#company)
-  - [Key Value Object](#key-value-object)
-  - [Measurement](#measurement)
-  - [Product Description](#product-description)
-  - [Product Shape](#product-shape)
-- [Schema](#schema)
-  - [Commercial transaction](#commercial-transaction)
-  - [Product](#product)
-  - [Analysis](#analysis)
-  - [Other Tests](#other-tests)
-  - [Validation](#validation)
-- [Features](#features)
-  - [Standardization of layout](#standardization-of-layout)
-    - [Current practice](#current-practice)
-    - [Objectives](#objectives)
-      - [Sample rendering](#sample-rendering)
-    - [Layout rules](#layout-rules)
-  - [Rendering in one or two languages](#rendering-in-one-or-two-languages)
-    - [Observations](#observations)
-    - [Example English certificate](#example-english-certificate)
-      - [Cutout from JSON](#cutout-from-json)
-      - [Cutout from PDF](#cutout-from-pdf)
-    - [Example English and French certificate](#example-english-and-french-certificate)
-      - [Cutout from JSON](#cutout-from-json-1)
-      - [Cutout from PDF](#cutout-from-pdf-1)
-    - [Additional languages](#additional-languages)
-    - [Fixing errors](#fixing-errors)
-- [Tools](#tools)
-- [Licensing](#licensing)
+- [EN 10168 Mill certificates](#en-10168-mill-certificates)
+  - [Table of Content](#table-of-content)
+  - [Introduction](#introduction)
+    - [Examples](#examples)
+  - [Current situation](#current-situation)
+    - [Description of products](#description-of-products)
+    - [Identification of the product](#identification-of-the-product)
+    - [Chemical Analysis](#chemical-analysis)
+    - [Conclusion](#conclusion)
+    - [Objectives for a new format](#objectives-for-a-new-format)
+  - [Components](#components)
+    - [Chemical Element](#chemical-element)
+    - [Company](#company)
+    - [Key Value Object](#key-value-object)
+    - [Measurement](#measurement)
+    - [Product Description](#product-description)
+    - [Product Shape](#product-shape)
+  - [Schema](#schema)
+    - [Commercial transaction](#commercial-transaction)
+    - [Product](#product)
+    - [Analysis](#analysis)
+    - [Other Tests](#other-tests)
+    - [Validation](#validation)
+  - [Features](#features)
+    - [Standardization of layout](#standardization-of-layout)
+      - [Current practice](#current-practice)
+      - [Objectives](#objectives)
+        - [Sample rendering](#sample-rendering)
+      - [Layout rules](#layout-rules)
+    - [Rendering in one or two languages](#rendering-in-one-or-two-languages)
+      - [Observations](#observations)
+      - [Example English certificate](#example-english-certificate)
+        - [Cutout from JSON](#cutout-from-json)
+        - [Cutout from PDF](#cutout-from-pdf)
+      - [Example English and French certificate](#example-english-and-french-certificate)
+        - [Cutout from JSON](#cutout-from-json-1)
+        - [Cutout from PDF](#cutout-from-pdf-1)
+      - [Additional languages](#additional-languages)
+      - [Fixing errors](#fixing-errors)
+  - [Tools](#tools)
+  - [Licensing](#licensing)
 
 <!-- /code_chunk_output -->
 
@@ -451,8 +454,8 @@ Translation errors can be reported by submitting a bug report on [Github](https:
 
 ## Tools
 
-Tools supporting the validation, testing, and rendering as PDF and HTML are available at [https://www.npmjs.com/org/s1seven](https://www.npmjs.com/org/s1seven). These tools implement the features described in the following for easy adoption by users and developers. The source code and documentation can be found at [https://github.com/s1seven/schema-tools](https://github.com/s1seven/schema-tools).
+Tools supporting the validation, testing, and rendering JSON as PDF are available as part of the Material Identity ecosystem. These tools, along with the schema definitions, examples, and documentation, are consolidated in the central repository at [https://github.com/material-identity/schemas](https://github.com/material-identity/schemas). 
 
 ## Licensing
 
-The format definition, examples, translation, and the documentation on this site are published under [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html). 
+The format definition, examples, translation, and the documentation are published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
