@@ -28,6 +28,7 @@
     - [Products](#products-1)
     - [Companies](#companies-1)
     - [Documents](#documents-1)
+    - [EUDR References](#eudr-references)
     - [DMP References](#dmp-references)
     - [Due Diligence Statement](#due-diligence-statement-1)
 - [Features](#features)
@@ -252,6 +253,7 @@ graph TD
     Documents-->Lacey[Lacey Declaration]
     Documents-->TSCA[TSCA/CARB Certificate]
     Documents-->Others[Others]
+    DMP-->EUDRReferences[EUDR References]
     DMP-->DMPReferences[DMP References]
     DMP-->DueDiligence[Due Diligence Statement]
 ```
@@ -353,6 +355,16 @@ The documents section references supporting documentation.
 | Others | Array of other relevant documents | No |
 
 Each document follows the same structure as in the ForestrySource schema.
+
+### EUDR References
+
+References to Due Diligence Statments submitted to the European Union TRACES application that form part of the chain of custody.
+
+| Attribute | Description | Mandatory |
+|-----------|-------------|:---------:|
+| InternalReferenceNumber | A user-defined identifier | No |
+| DDSReferenceNumber | A references number issued by the TRAVCES application  | Yes |
+| VerificationNumber | A verification number issued by the TRAVCES application | Yes |
 
 ### DMP References
 
