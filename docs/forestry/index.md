@@ -363,8 +363,10 @@ References to Due Diligence Statments submitted to the European Union TRACES app
 | Attribute | Description | Mandatory |
 |-----------|-------------|:---------:|
 | InternalReferenceNumber | A user-defined identifier | No |
-| DDSReferenceNumber | A references number issued by the TRAVCES application  | Yes |
-| VerificationNumber | A verification number issued by the TRAVCES application | Yes |
+| DDSReferenceNumber | A references number issued by the TRACES application  | Yes |
+| VerificationNumber | A verification number issued by the TRACES application | Yes |
+
+For documentation see https://green-business.ec.europa.eu/deforestation-regulation-implementation/information-system-deforestation-regulation_en
 
 ### DMP References
 
