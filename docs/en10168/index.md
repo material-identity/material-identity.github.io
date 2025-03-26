@@ -263,6 +263,7 @@ In the following chapters the defined components are applied to each information
 | A06.1     | The [purchaser](#company) of the product if A06 is not provided.          |    No     |   Yes   |
 | A06.2     | The [consignee](#company) of the product only if A06.1 is provided.       |    No     |   Yes   |
 | A06.3     | The [consignee](#company) of the certificate only if A06.1 is provided    |    No     |   Yes   |
+| A06.4     | The [subpurchaser](#company) of the product only if A06.1 is provided     |    No     |   Yes   |
 | A07       | Purchase number                                                           |    Yes    |   Yes   |
 | A08       | Manufacturer's work number                                                |    No     |   Yes   |
 | A09       | The article number used by the purchaser                                  |    No     |   Yes   |
