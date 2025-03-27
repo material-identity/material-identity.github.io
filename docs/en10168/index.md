@@ -343,7 +343,7 @@ Remarks
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------- | :-------: | :-----: |
 | Z01                 | Statement of compliance                                                                                                    |    Yes    |   Yes   |
 | Z02                 | Date of issue and validation                                                                                               |    Yes    |   Yes   |
-| Z03                 | Stamp of the inspection representative                                                                                     |    No     |   Yes   |
+| Z03                 | Stamp of the inspection representativ; composed of name, title and image of the stamp                                      |    No     |   Yes   |
 | Z04                 | CE marking with properties CE image, the identification number of the notified body, year of issueing and document number  |    No     |   Yes   |
 | Z05&nbsp;-&nbsp;Z99 | Supplementary Information                                                                                                  |    No     |   Yes   |
 
