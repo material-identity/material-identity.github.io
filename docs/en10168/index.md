@@ -69,12 +69,19 @@ To simplify design and maintance components to be used multiple times in the sch
 
 EN 10168 defines that in fields C71 to C92 the share of chemical elements has to be provided, but it does not map chemical elements to fields. The solution is to require both the `Symbol` and `Actual` value.
 
-| Attribute | Description                                                                                   | Mandatory | Visible |
-| --------- | --------------------------------------------------------------------------------------------- | :-------: | :-----: |
-| Symbol    | The symbol of the element                                                                     |    Yes    |   Yes   |
-| Actual    | The measured part of the element in percentage.                                               |    Yes    |   Yes   |
-| Minimum   | The minimum if defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
-| Maximum   | The maximum as defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
+| Attribute        | Description                                                                                   | Mandatory | Visible |
+| ---------------- | --------------------------------------------------------------------------------------------- | :-------: | :-----: |
+| Symbol           | The symbol of the element or formula reference.                                               |    Yes    |   Yes   |
+| Actual/Value     | The measured part of the element in percentage.                                               |    Yes    |   Yes   |
+| Actual/Notation  | The measured part of the element in percentage.                                               |    No     |   Yes   |
+| Minimum/Value    | The minimum if defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
+| Minimum/Notation | The minimum if defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
+| Maximum/Value    | The maximum as defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
+| Maximum/Notation | The maximum as defined by the product specification, otherwise the element must not provided. |    No     |   Yes   |
+| Unit             | The unit which can be `%`, `ppm` or `null`.                                                   |    Yes    |   Yes   |
+| Formula          | In case the value is calculated the formula has to be provided in this element.               |    Yes    |   Yes   |
+
+Formulas are rendered in a new table following the chemical analysis.
 
 ### Company
 
