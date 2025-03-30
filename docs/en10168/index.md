@@ -180,8 +180,22 @@ EN 10168 implements flexibility by defining plenty of supplementary information 
 | Key            | A key                                                                                       |    Yes    |   Yes   |
 | Value          | A value, type string                                                                        |    Yes    |   Yes   |
 | Unit           | Unit of value                                                                               |    No     |   Yes   |
-| Interpretation | An interpretation of the value, e.g. "compliant" to a requirement given in the key          |    No     |   Yes   |
-| Type           | The data type of the value, so that numbers can be rendered according language conventions. |    No     |   No    |
+| Interpretation | An interpretation of the value, e.g. "compliant" to a requirement given in the key.          |    No     |   Yes   |
+| Type           | An enumeration of types to provide instructions for renderings, see the next table.|    No     |   No    |
+
+## Type Enum Values
+
+| Type Value | Description | Value Format | Rendering Behavior | Example Value |
+| ---------- | ----------- | ------------ | ------------------ | ------------- |
+| string     | Default type used for text values. | Text string | Displays the text as-is without special formatting. | "Certificate issued by Authority X" |
+| number     | Used for numeric values. | Numeric value as a string | Rendered according to the language's numerical conventions. | "42.5" |
+| date       | Represents a calendar date. | ISO 8601 date format (YYYY-MM-DD) | Displayed according to the locale's date format. | "2024-03-30" |
+| date-time  | Represents a date with time. | ISO 8601 date-time format (YYYY-MM-DDThh:mm:ss) | Displayed according to the locale's date and time format. | "2024-03-30T10:15:30" |
+| boolean    | Represents a true/false value. | "true" or "false" | Displayed as appropriate boolean representation for the locale. | "true" |
+| url        | Represents a clickable web link. | Valid URL string | Rendered as a clickable hyperlink in PDF and HTML outputs. | "https://example.com/verify" |
+| phone      | Represents a phone number. | Phone number string | Displayed with appropriate formatting and clickable (using `tel:` protocol) in HTML output. | "+1-555-123-4567" |
+| email      | Represents an email address. | Valid email address | Displayed with appropriate formatting and clickable (using `mailto:` protocol) in HTML output. | "contact@example.com" |
+| image      | Represents an embedded image. | Base64-encoded image data with MIME type prefix | Displays the actual image in PDF and HTML outputs. | "data:image/png;base64,iVBORw0..." |
 
 ### Measurement
 
