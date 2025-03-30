@@ -169,7 +169,6 @@ EN 10168 defines that in fields C71 to C92 the share of chemical elements has to
 | Country    | The two-letter ISO country code according to [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).  |    Yes    |   Yes   |
 | Email      | The email address to be used to send certificates to the company.                                      |    No    |   Yes   |
 | Identifier | One or more unique company identifiers. Currently, [VAT](https://ec.europa.eu/taxation_customs/vat-identification-numbers_en), [DUNS](https://www.dnb.com/duns-number.html), and [Cage Codes](https://cage.dla.mil/Info/about#cagecode) are supported. One of `VAT` or `DUNS` is required. |    Yes    |   No    |
-| AdditionalInformation | An array of additional free text information on the company.                               |    No     |   Yes     |
 
 ### Key Value Object
 
