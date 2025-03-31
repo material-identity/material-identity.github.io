@@ -278,7 +278,8 @@ In the following chapters the defined components are applied to each information
 Remarks
 
 - EN 10168 assigns fields C71 to C92 to the chemical analysis. Many certificates contain the share of many more elements so the list of fields was extended to C109.
-
+- EN 10168 restricts the values to Y = Basic oxygen process, E = Electric furnace. The schema does not enforce that restrictions so detailed process descriptions are allowed, e.g., EAF+LF+RH+CC (Electric Arc Furnace + Ladle Furnace + RH Degassing + Continuous Casting).
+  
 ### Other Tests
 
 | Field     | Description                                                                      | Mandatory | Visible |
