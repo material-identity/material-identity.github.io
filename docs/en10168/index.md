@@ -78,6 +78,26 @@ EN 10168 defines that in fields C71 to C92 the share of chemical elements has to
 
 Formulas are rendered in a new table following the chemical analysis.
 
+**Example for application**
+
+```JSON
+{
+  "Symbol": "C",
+  "Actual": {
+    "Value": "0.42",
+    "Operator": "<"
+  },
+  "Minimum": {
+    "Value": "0.35",
+    "Operator": ">"
+  },
+  "Maximum": {
+    "Value": "0.45",
+    "Operator": "<="
+  }
+}
+```
+
 ### Company
 
 | Attribute  | Description                                                                                            | Mandatory | Visible |
