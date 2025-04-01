@@ -1,5 +1,9 @@
 # EN 10168 Mill certificates
 
+## Remarks
+
+This documentation covers the version v0.5.0 as published on [Github](https://github.com/material-identity/schemas/). For the documentation of the previous version see [v0.4.1](v0.4.1.md).
+
 ## Table of Content
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=false} -->
 
