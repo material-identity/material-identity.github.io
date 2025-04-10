@@ -150,6 +150,10 @@ tomorrow:
   <a href="https://material.one" target="_blank">
     <img src="./assets/material.one.png" alt="material.one" height="32" style="margin-right: 30px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
   </a>
+  </a>
+  <a href="https://adexin.com" target="_blank">
+    <img src="./assets/adexin.svg" alt="Adexin" height="40" style="margin-right: 30px;margin-left: 20p; margin-top: 13px; margin-bottom: 13px">
+  </a>
 </p>
 </div>
 
