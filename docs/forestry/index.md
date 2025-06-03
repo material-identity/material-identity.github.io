@@ -219,6 +219,7 @@ Each document contains:
 | Hash | The hash of the document | Yes |
 | MIME-Type | The MIME type of the document | Yes |
 | URL | The URL where the document can be accessed | Yes |
+| FileName | The name of the file | No |
 
 ### Due Diligence Statement
 
@@ -688,7 +689,8 @@ The format definition, examples, translation, and the documentation are publishe
           "Value": "OGM2NmJkMmUxOWJhY2I5ZDFkMWNmY2QzNjk2OWQ2ZTUxOTZiZDgwM2MwY2NhYjA5OWUwMjY4NmE5ZWE1YjgyOA=="
         },
         "MIME-Type": "application/pdf",
-        "URL": "https://schema-service-attachments-local.s3.eu-north-1.amazonaws.com/files/forest_concession.pdf"
+        "URL": "https://schema-service-attachments-local.s3.eu-north-1.amazonaws.com/files/forest_concession.pdf",
+        "FileName": "forest_concession.pdf"
       }
     }
   }
