@@ -1,6 +1,6 @@
-# [Project name]
+# Material Identity
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A standalone static documentation website for Material Identity, an open-source, vendor-neutral project publishing JSON schemas for material declarations.
 
 ## Run & Operate
 
@@ -30,11 +30,13 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+The site explains the Global Schema and the narrower Metals, Chemicals and Forestry Material Schemas, links to their field references, and documents tools and contribution paths.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Keep this site static and hard-coded for later hosting on GitHub Pages; no backend, database, accounts, pricing, forms, or sales.
+- Use a GitHub documentation/repository appearance with system fonts, neutral borders, blue links, responsive navigation, and light/dark themes.
+- All schemas are open source under a copyleft licence; standards keep their identity and ownership.
 
 ## Gotchas
 

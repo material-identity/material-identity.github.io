@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Material Identity"
+description = "A standalone static documentation website for open, vendor-neutral material declaration JSON schemas, with documentation for metals, chemicals and forestry."
+version = "1.0.0"
+id = "artifacts/material-identity"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22577
+
+[services.development]
+run = "pnpm --filter @workspace/material-identity run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/material-identity", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/material-identity/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22577"
+BASE_PATH = "/"
