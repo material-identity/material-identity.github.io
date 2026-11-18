@@ -89,10 +89,9 @@ function ThemeToggle() {
 
 /* ---------- Header ---------- */
 const NAV = [
+  { label: 'Why', to: '/#why', page: false },
+  { label: 'How it works', to: '/#how', page: false },
   { label: 'Schemas', to: '/#schemas', page: false },
-  { label: 'Metals', to: '/metals', page: true },
-  { label: 'Chemicals', to: '/chemicals', page: true },
-  { label: 'Forestry', to: '/forestry', page: true },
   { label: 'Contribute', to: '/#contribute', page: false },
 ];
 
