@@ -4,5 +4,6 @@ export const modules: ModuleMap = {
   "./components/mockups/material-icon/ConnectedMonogram.tsx": () => import("../components/mockups/material-icon/ConnectedMonogram.tsx"),
   "./components/mockups/material-icon/Current.tsx": () => import("../components/mockups/material-icon/Current.tsx"),
   "./components/mockups/material-icon/MaterialLayers.tsx": () => import("../components/mockups/material-icon/MaterialLayers.tsx"),
+  "./components/mockups/material-icon/NestedDefinitions.tsx": () => import("../components/mockups/material-icon/NestedDefinitions.tsx"),
   "./components/mockups/material-icon/SharedDefinition.tsx": () => import("../components/mockups/material-icon/SharedDefinition.tsx")
 };
