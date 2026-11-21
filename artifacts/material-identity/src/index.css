@@ -197,6 +197,7 @@
 .logo-tile:hover { border-color: #0969da; text-decoration: none; }
 .logo-tile:hover img, .logo-tile:focus-visible img { filter: none; opacity: 1; }
 .logo-tile:hover .wordmark { color: #1f2328; }
+.md .community-logos ul { list-style: none; padding-left: 0; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }

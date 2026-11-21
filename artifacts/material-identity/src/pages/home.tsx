@@ -133,7 +133,7 @@ export default function Home() {
       {/* 7 Community */}
       <H2 id="community">Community</H2>
       {COMMUNITY.map((g) => (
-        <div key={g.group} className="mb-6">
+        <div key={g.group} className="community-logos mb-6">
           <h3 className="mb-3 mt-0 text-[14px] font-semibold" style={{ color: 'var(--fg-muted)' }}>{g.group}</h3>
           <ul className="m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 md:grid-cols-4">
             {g.items.map((l) => (
