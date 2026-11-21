@@ -6,5 +6,6 @@ export const modules: ModuleMap = {
   "./components/mockups/material-icon/MaterialLayers.tsx": () => import("../components/mockups/material-icon/MaterialLayers.tsx"),
   "./components/mockups/material-icon/NestedDefinitions.tsx": () => import("../components/mockups/material-icon/NestedDefinitions.tsx"),
   "./components/mockups/material-icon/OffsetDefinitions.tsx": () => import("../components/mockups/material-icon/OffsetDefinitions.tsx"),
-  "./components/mockups/material-icon/SharedDefinition.tsx": () => import("../components/mockups/material-icon/SharedDefinition.tsx")
+  "./components/mockups/material-icon/SharedDefinition.tsx": () => import("../components/mockups/material-icon/SharedDefinition.tsx"),
+  "./components/mockups/material-icon/SharedDefinition16.tsx": () => import("../components/mockups/material-icon/SharedDefinition16.tsx")
 };
