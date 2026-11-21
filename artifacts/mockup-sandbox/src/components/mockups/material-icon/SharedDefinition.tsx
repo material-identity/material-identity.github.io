@@ -13,8 +13,9 @@ function SharedDefinitionMark({ size = 24 }: { size?: number }) {
       strokeLinejoin="round"
       aria-hidden="true"
     >
-      <path d="M5 7h13M8 12h10M11 17h7" />
-      <path d="M19 5.5v13" />
+      <rect x="3" y="3" width="18" height="18" rx="3.5" />
+      <path d="M12 3v5c-2.5 0-2.5 4 0 4" />
+      <path d="M3 12h5c0 2.5 4 2.5 4 0h9" />
     </svg>
   );
 }
@@ -23,9 +24,9 @@ export function SharedDefinition() {
   return (
     <Study
       Mark={SharedDefinitionMark}
-      title="Shared definition"
-      description="Three differently sized representation lines meet one steady edge: varied material records, aligned to a common meaning."
-      tradeoff="The open, unboxed construction stays clear at small sizes and avoids literal initials. Its alignment metaphor is understated, so it may read as a tidy list before it reads as shared semantics."
+      title="Different definitions, one whole"
+      description="Three separate fields fit together inside one frame: distinct material definitions, joined as parts of a shared schema."
+      tradeoff="The enclosing shape makes the idea of one shared whole more immediate, while the puzzle-like joins suggest fit without implying that the underlying standards lose their identity. At 16 px, the inner joins are subtle."
     />
   );
 }
