@@ -154,9 +154,9 @@ function Header() {
 
 function Mark() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
-      <rect x="1" y="1" width="22" height="22" rx="5" fill="none" stroke="currentColor" strokeWidth="1.5" />
-      <path d="M6 16V8l3 4 3-4v8M16 8v8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" shapeRendering="geometricPrecision">
+      <rect x="3" y="3" width="18" height="18" rx="3.5" />
+      <path d="M12 4v8M4 12h16" />
     </svg>
   );
 }

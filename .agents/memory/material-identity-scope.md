@@ -9,6 +9,12 @@ Material Identity is an open-source, vendor-neutral project publishing JSON sche
 
 **How to apply:** Keep future site work hard-coded and static unless the user changes the scope. Preserve the GitHub documentation/Primer appearance rather than introducing marketing imagery or styles.
 
+The chosen identity symbol represents different definitions fitting into one shared whole, with three distinct areas inside one boundary.
+
+**Why:** The user requested this meaning during icon exploration and selected the simplified small-size design for integration.
+
+**How to apply:** Preserve this shared-whole concept when extending the identity; do not revert to the earlier MI monogram or substitute a hierarchy-only metaphor.
+
 The user confirmed that the existing look and feel is great and asked for simpler content around why, what and how. Paid schemas are not in place yet and must not be promoted.
 
 **Why:** The user explicitly confirmed the appearance and clarified the current offering.
