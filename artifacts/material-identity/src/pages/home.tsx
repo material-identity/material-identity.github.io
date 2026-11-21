@@ -23,7 +23,7 @@ const COMMUNITY: { group: string; items: Logo[] }[] = [
   {
     group: 'Technology and service providers',
     items: [
-      { name: 'S1SEVEN', url: 'https://s1seven.com' },
+      { name: 'S1SEVEN', url: 'https://s1seven.com', img: 's1seven.png' },
       { name: 'Industrious', url: 'https://www.icxp.eu', img: 'industrious.svg' },
       { name: 'motan group', url: 'https://www.motan-group.com', img: 'motan.png' },
       { name: 'MetalsXP', url: 'https://www.metalsxp.com', img: 'metalsxp.svg' },
