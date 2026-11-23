@@ -6,7 +6,7 @@ A standalone static documentation website for Material Identity, an open-source,
 
 - This repo holds one static website, `artifacts/material-identity`. Do not add other artifacts (no `api-server`, no `mockup-sandbox`), no `lib/*` packages, no backend and no database.
 - Do not add shadcn/ui components, hooks or packages in bulk. Add a component or package only when the site imports it, and remove anything that becomes unused.
-- GitHub is the source of truth. Work on a new branch, push it and open a pull request; never push to `main`.
+- Commit changes on `main` in Replit and never push. A maintainer pushes the changes to a branch and opens the pull request on GitHub.
 - The site is deployed by `.github/workflows/deploy.yaml` (GitHub Pages, materialidentity.org) on merge to `main`. Do not publish or deploy from Replit.
 - Keep the redirects for old addresses in `vite.config.ts` (`OLD_SITE_REDIRECTS`) working.
 
