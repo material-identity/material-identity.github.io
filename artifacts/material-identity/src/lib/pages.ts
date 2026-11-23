@@ -58,4 +58,5 @@ export const SCHEMA_FOLDERS = {
   metals: `${GITHUB_REPO}/tree/main/schemas/EN10168`,
   chemicals: `${GITHUB_REPO}/tree/main/schemas/CoA`,
   forestry: `${GITHUB_REPO}/tree/main/schemas/ForestrySource`,
+  forestryOutput: `${GITHUB_REPO}/tree/main/schemas/ForestryOutput`,
 };

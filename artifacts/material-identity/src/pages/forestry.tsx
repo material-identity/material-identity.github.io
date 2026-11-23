@@ -29,7 +29,7 @@ export default function Forestry() {
         Standardized documentation of harvested wood from the forest to the final product, supporting the EU Deforestation Regulation (EUDR), the US Lacey Act and similar legal harvest and traceability requirements.
       </p>
       <H2 id="structure">Structure at a glance</H2>
-      <p>Two schemas work together: <code>ForestrySource</code> (v1.1.0) records origin at harvest, and <code>ForestryOutput</code> (v1.0.0) records each supply chain transaction. <code>ForestryOutput</code> replaces the earlier <code>Forestry</code> schema (v0.0.1).</p>
+      <p>Two schemas work together: <a href={SCHEMA_FOLDERS.forestry}><code>ForestrySource</code></a> (v1.1.0) records origin at harvest, and <a href={SCHEMA_FOLDERS.forestryOutput}><code>ForestryOutput</code></a> (v1.0.0) records each supply chain transaction. <code>ForestryOutput</code> replaces the earlier <code>Forestry</code> schema (v0.0.1).</p>
       <H3 id="forestry-source">ForestrySource: origin at harvest</H3>
       <Table rows={[
         ['Location', 'Country, state, forest concession'],
