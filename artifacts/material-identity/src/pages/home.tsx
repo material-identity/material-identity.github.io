@@ -47,7 +47,7 @@ export default function Home() {
 
   return (
     <div className="wrap md pb-8">
-      <section id="why" className="border-b py-12 md:py-16" style={{ borderColor: 'var(--line-muted)' }}>
+      <section id="why" className="py-12 md:py-16">
         <h1 className="m-0 max-w-[760px] text-[32px] font-semibold leading-[1.2] tracking-[-0.015em] md:text-[44px]" data-testid="text-headline">
           Material data that systems understand.
         </h1>
