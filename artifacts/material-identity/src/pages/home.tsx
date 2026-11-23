@@ -47,9 +47,7 @@ export default function Home() {
 
   return (
     <div className="wrap md pb-8">
-      {/* Why */}
       <section id="why" className="border-b py-12 md:py-16" style={{ borderColor: 'var(--line-muted)' }}>
-        <p className="mono mb-3 text-[13px]" style={{ color: 'var(--fg-muted)' }}>Why · One common language for material data</p>
         <h1 className="m-0 max-w-[760px] text-[32px] font-semibold leading-[1.2] tracking-[-0.015em] md:text-[44px]" data-testid="text-headline">
           Material data that systems understand.
         </h1>
@@ -70,8 +68,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How */}
-      <p className="mono mb-0 mt-10 text-[12px]" style={{ color: 'var(--fg-muted)' }}>How · Our approach</p>
       <H2 id="how">Industry expertise meets shared definitions.</H2>
       <p>
         Material Identity is an open-source, vendor-neutral project. We bring established industry standards, material expertise and technology together to create harmonized, machine-interpretable JSON schemas.
@@ -89,8 +85,6 @@ export default function Home() {
       </div>
       <p className="text-[14px]" style={{ color: 'var(--fg-muted)' }}>Existing industry standards keep their identity and ownership.</p>
 
-      {/* What */}
-      <p className="mono mb-0 mt-10 text-[12px]" style={{ color: 'var(--fg-muted)' }}>What · Our schema library</p>
       <H2 id="schemas">Ready-to-use schemas for real industries.</H2>
       <p>
         Documented, versioned schemas for material declarations. The Global Schema is the most generic, universal schema for any declaration. Material Schemas for Metals, Chemicals and Forestry add narrower definitions.
