@@ -34,12 +34,7 @@ export default function Legal({ path }: { path: LegalPath }) {
           h2: ({ children }) => (
             <H2 id={String(children).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}>{children}</H2>
           ),
-          a: ({ href: target, children }) => {
-            // Preserve the source text while making its bare domain link usable.
-            const url = target?.startsWith('/') ? href(target)
-              : target === 'www.materialidentity.org' ? `https://${target}` : target;
-            return <a href={url}>{children}</a>;
-          },
+          a: ({ href: target, children }) => <a href={target?.startsWith('/') ? href(target) : target}>{children}</a>,
         }}>{DOCUMENTS[path]}</ReactMarkdown>
       </article>
     </div>
