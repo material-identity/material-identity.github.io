@@ -2,23 +2,25 @@
 
 A standalone static documentation website for Material Identity, an open-source, vendor-neutral project publishing JSON schemas for material declarations.
 
+## Repository rules
+
+- This repo holds one static website, `artifacts/material-identity`. Do not add other artifacts (no `api-server`, no `mockup-sandbox`), no `lib/*` packages, no backend and no database.
+- Do not add shadcn/ui components, hooks or packages in bulk. Add a component or package only when the site imports it, and remove anything that becomes unused.
+- GitHub is the source of truth. Work on a new branch, push it and open a pull request; never push to `main`.
+- The site is deployed by `.github/workflows/deploy.yaml` (GitHub Pages, materialidentity.org) on merge to `main`. Do not publish or deploy from Replit.
+- Keep the redirects for old addresses in `vite.config.ts` (`OLD_SITE_REDIRECTS`) working.
+
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `pnpm --filter @workspace/material-identity run dev` — run the site locally (needs `PORT` and `BASE_PATH`)
+- `pnpm --filter @workspace/material-identity run typecheck` — typecheck the site
+- `BASE_PATH=/ pnpm --filter @workspace/material-identity run build` — build the static site into `artifacts/material-identity/dist/public`
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- React 19, Vite 7, Tailwind CSS 4, wouter for routing
+- Static build: one prerendered `index.html` per page plus redirects, served by GitHub Pages
 
 ## Where things live
 

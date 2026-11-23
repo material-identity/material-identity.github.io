@@ -53,3 +53,9 @@ export const PAGES: PageMeta[] = [
 export const GITHUB_ORG = 'https://github.com/material-identity';
 export const GITHUB_REPO = 'https://github.com/material-identity/schemas';
 export const GITHUB_ISSUES = 'https://github.com/material-identity/schemas/issues';
+
+export const SCHEMA_FOLDERS = {
+  metals: `${GITHUB_REPO}/tree/main/schemas/EN10168`,
+  chemicals: `${GITHUB_REPO}/tree/main/schemas/CoA`,
+  forestry: `${GITHUB_REPO}/tree/main/schemas/ForestrySource`,
+};

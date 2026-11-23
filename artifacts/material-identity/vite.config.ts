@@ -42,8 +42,34 @@ function applyMeta(html: string, p: PageMeta) {
     .replace(/(rel="canonical" href=")[^"]*"/, `$1${url}"`);
 }
 
+// Addresses of the old VuePress site, mapped to the page that replaces them.
+const OLD_SITE_REDIRECTS: Record<string, string> = {
+  'about/index.html': '/',
+  'coa/index.html': '/chemicals',
+  'en10168/index.html': '/metals',
+  'en10168/v0.4.1.html': '/metals',
+  'imprint.html': '/imprint',
+  'privacy_policy.html': '/privacy_policy',
+  'terms_conditions.html': '/terms_conditions',
+};
+
+function redirectHtml(target: string) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="${SITE_URL}${target}">
+<meta http-equiv="refresh" content="0; url=${target}">
+</head>
+<body><p>This page has moved to <a href="${target}">${SITE_URL}${target}</a>.</p></body>
+</html>
+`;
+}
+
 // Emits dist/public/<route>/index.html for each page with page-specific meta,
-// plus 404.html and .nojekyll, so GitHub Pages serves deep links directly.
+// plus 404.html, .nojekyll and redirects from old addresses, so GitHub Pages serves deep links directly.
 function staticRoutes(): Plugin {
   let outDir = '';
   return {
@@ -62,6 +88,12 @@ function staticRoutes(): Plugin {
         fs.writeFileSync(path.join(dir, 'index.html'), applyMeta(html, p));
       }
       fs.writeFileSync(path.join(outDir, '404.html'), applyMeta(html, PAGES[0]));
+      const base = basePath.replace(/\/$/, '');
+      for (const [file, target] of Object.entries(OLD_SITE_REDIRECTS)) {
+        const redirectFile = path.join(outDir, file);
+        fs.mkdirSync(path.dirname(redirectFile), { recursive: true });
+        fs.writeFileSync(redirectFile, redirectHtml(base + target));
+      }
       fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
     },
   };

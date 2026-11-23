@@ -1,5 +1,6 @@
 import { H2, MvrExample } from '@/components/site';
 import { SchemaDoc, TOOLS_TEXT } from '@/components/schema-doc';
+import { SCHEMA_FOLDERS } from '@/lib/pages';
 
 const TOC = [
   { id: 'purpose', label: 'Purpose' },
@@ -24,7 +25,7 @@ const ROWS: [string, string][] = [
 
 export default function Chemicals() {
   return (
-    <SchemaDoc path="/chemicals" slug="chemicals" sector="Chemicals & Plastics" title="Certificate of Analysis" version="v1.0.0" reference="https://materialidentity.org/coa/" toc={TOC}>
+    <SchemaDoc path="/chemicals" slug="chemicals" sector="Chemicals & Plastics" title="Certificate of Analysis" version="v1.0.0" reference={SCHEMA_FOLDERS.chemicals} toc={TOC}>
       <H2 id="purpose">Purpose</H2>
       <p>
         Manufacturers deliver a certificate of analysis with every batch. This schema replaces PDF and proprietary EDI formats with open, extensible JSON. It was developed with BASF, a fittings manufacturer and S1SEVEN, and released as open source.

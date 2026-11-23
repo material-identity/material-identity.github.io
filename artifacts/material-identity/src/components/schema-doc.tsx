@@ -73,10 +73,10 @@ export function SchemaDoc({
         </details>
         {children}
         <H2 id="links">Full field reference</H2>
-        <p>Every field, type and constraint is documented in the generated reference. Source, examples and translations live in the central repository.</p>
+        <p>Every field, type and constraint is defined in the schema files. Source, examples and translations live in the central repository.</p>
         <div className="flex flex-wrap gap-2">
-          <a href={reference} className="btn btn-primary" data-testid="link-field-reference"><ExternalLink size={16} /> Full field reference</a>
-          <a href={GITHUB_REPO} className="btn" data-testid="link-schema-github"><GitHubIcon /> View on GitHub</a>
+          <a href={reference} className="btn btn-primary" data-testid="link-field-reference"><ExternalLink size={16} /> Schema files</a>
+          <a href={GITHUB_REPO} className="btn" data-testid="link-schema-github"><GitHubIcon /> View repository</a>
         </div>
       </article>
     </div>

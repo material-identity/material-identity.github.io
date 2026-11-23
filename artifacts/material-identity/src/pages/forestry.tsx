@@ -1,5 +1,6 @@
 import { H2, H3 } from '@/components/site';
 import { SchemaDoc, TOOLS_TEXT } from '@/components/schema-doc';
+import { SCHEMA_FOLDERS } from '@/lib/pages';
 
 const TOC = [
   { id: 'purpose', label: 'Purpose' },
@@ -22,7 +23,7 @@ function Table({ rows }: { rows: [string, string][] }) {
 
 export default function Forestry() {
   return (
-    <SchemaDoc path="/forestry" slug="forestry" sector="Forestry & Timber" title="ForestrySource and Forestry" version="v0.0.1" reference="https://materialidentity.org/forestry/" toc={TOC}>
+    <SchemaDoc path="/forestry" slug="forestry" sector="Forestry & Timber" title="ForestrySource and Forestry" version="v0.0.1" reference={SCHEMA_FOLDERS.forestry} toc={TOC}>
       <H2 id="purpose">Purpose</H2>
       <p>
         Standardized documentation of harvested wood from the forest to the final product, supporting the EU Deforestation Regulation (EUDR), the US Lacey Act and similar legal harvest and traceability requirements.

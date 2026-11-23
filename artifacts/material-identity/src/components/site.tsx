@@ -1,7 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, useLocation } from 'wouter';
 import { ArrowRight, BookOpen, Link2, Menu, Monitor, Moon, Sun, X } from 'lucide-react';
-import { GITHUB_ORG, GITHUB_REPO, PAGES, SITE_URL } from '@/lib/pages';
+import { GITHUB_ORG, PAGES, SCHEMA_FOLDERS, SITE_URL } from '@/lib/pages';
 
 export const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
 /** Absolute in-app href (for plain anchors that need the base prefix). */
@@ -282,7 +282,7 @@ export function SchemaCard({ s }: { s: SchemaInfo }) {
         <Link href={`/${s.slug}`} className="btn" data-testid={`link-schema-docs-${s.slug}`}>
           <BookOpen size={16} strokeWidth={1.75} /> Documentation
         </Link>
-        <a href={GITHUB_REPO} className="btn" data-testid={`link-schema-github-${s.slug}`}>
+        <a href={SCHEMA_FOLDERS[s.slug]} className="btn" data-testid={`link-schema-github-${s.slug}`}>
           <GitHubIcon /> GitHub
         </a>
       </div>
