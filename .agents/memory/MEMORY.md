@@ -1,0 +1,1 @@
+- [Material Identity scope](material-identity-scope.md) — static-only documentation, precise schema hierarchy, per-schema licence wording and terminology constraints.

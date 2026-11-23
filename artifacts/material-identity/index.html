@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Material Identity · The common language for material data</title>
+    <meta name="description" content="Open, vendor-neutral schemas that give every value in a material declaration one unambiguous meaning, so software can interpret material data, not just open it." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://materialidentity.org/" />
+    <meta property="og:site_name" content="Material Identity" />
+    <meta property="og:title" content="Material Identity · The common language for material data" />
+    <meta property="og:description" content="Open, vendor-neutral schemas that give every value in a material declaration one unambiguous meaning, so software can interpret material data, not just open it." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://materialidentity.org/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Material Identity · The common language for material data" />
+    <meta name="twitter:description" content="Open, vendor-neutral schemas that give every value in a material declaration one unambiguous meaning, so software can interpret material data, not just open it." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('mi-theme');
+          var dark = t === 'dark' || (t !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

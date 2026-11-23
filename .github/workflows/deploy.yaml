@@ -4,40 +4,56 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: 20.x
-  DOCS_FOLDER: docs
-  DOCS_VERSION_PATH: /
+  NODE_VERSION: 24.x
+  SITE_FOLDER: artifacts/material-identity/dist/public
 
 jobs:
   pages:
     runs-on: ubuntu-26.04
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
 
-      - name: Install and rebuild API docs
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck and build website
+        env:
+          BASE_PATH: /
         run: |
-          npm install &&
-          npm run docs:build
+          pnpm --filter @workspace/material-identity run typecheck
+          pnpm --filter @workspace/material-identity run build
+          cp CNAME ${{ env.SITE_FOLDER }}/CNAME
 
-      - name: Deploy API documentation 🚀
+      - name: Deploy website 🚀
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4.6.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: github-pages
-          folder: ${{ env.DOCS_FOLDER }}/.vuepress/dist
-          target-folder: ${{ env.DOCS_VERSION_PATH }}
+          folder: ${{ env.SITE_FOLDER }}
+          target-folder: /
           clean: true
           clean-exclude: |
             CNAME
