@@ -167,9 +167,9 @@ function Mark() {
 function Footer() {
   const links = [
     ['GitHub', GITHUB_ORG],
-    ['Terms and Conditions', 'https://materialidentity.org/terms_conditions'],
-    ['Privacy Policy', 'https://materialidentity.org/privacy_policy'],
-    ['Imprint', 'https://materialidentity.org/imprint'],
+    ['Terms and Conditions', href('/terms_conditions')],
+    ['Privacy Policy', href('/privacy_policy')],
+    ['Imprint', href('/imprint')],
   ];
   return (
     <footer className="mt-16 border-t">

@@ -6,6 +6,9 @@ import Home from '@/pages/home';
 import Metals from '@/pages/metals';
 import Chemicals from '@/pages/chemicals';
 import Forestry from '@/pages/forestry';
+import Legal, { type LegalPath } from '@/pages/legal';
+
+const LEGAL_PATHS: LegalPath[] = ['/imprint', '/privacy_policy', '/terms_conditions'];
 
 function NotFound() {
   usePageMeta('/');
@@ -30,6 +33,10 @@ function Router() {
         <Route path="/chemicals/" component={Chemicals} />
         <Route path="/forestry" component={Forestry} />
         <Route path="/forestry/" component={Forestry} />
+        {LEGAL_PATHS.flatMap((path) => [
+          <Route key={path} path={path}>{() => <Legal path={path} />}</Route>,
+          <Route key={`${path}/`} path={`${path}/`}>{() => <Legal path={path} />}</Route>,
+        ])}
         <Route component={NotFound} />
       </Switch>
     </RoutedErrorBoundary>

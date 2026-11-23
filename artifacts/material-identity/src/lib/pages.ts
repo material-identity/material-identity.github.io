@@ -33,6 +33,21 @@ export const PAGES: PageMeta[] = [
     description:
       'Open source JSON schemas documenting the origin of harvested timber and its path through the supply chain, built for the EU Deforestation Regulation (EUDR) and the US Lacey Act.',
   },
+  {
+    path: '/imprint',
+    title: 'Imprint · Material Identity',
+    description: 'Legal notice and contact details for Material Identity and its website maintainer, S1SEVEN GmbH.',
+  },
+  {
+    path: '/privacy_policy',
+    title: 'Privacy Policy · Material Identity',
+    description: 'Material Identity’s privacy policy, data subject rights and privacy contact information.',
+  },
+  {
+    path: '/terms_conditions',
+    title: 'Terms & Conditions · Material Identity',
+    description: 'Terms and conditions governing use of the Material Identity website.',
+  },
 ];
 
 export const GITHUB_ORG = 'https://github.com/material-identity';
