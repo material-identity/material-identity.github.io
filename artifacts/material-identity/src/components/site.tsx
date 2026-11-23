@@ -267,19 +267,21 @@ export const SCHEMAS: SchemaInfo[] = [
 export function SchemaCard({ s }: { s: SchemaInfo }) {
   return (
     <article className="box flex flex-col p-4" data-testid={`card-schema-${s.slug}`}>
-      <div className="flex items-center gap-2">
-        <RepoIcon />
+      <div className="flex items-start gap-2">
+        <span className="mt-1 flex shrink-0"><RepoIcon /></span>
         <Link href={`/${s.slug}`} className="font-semibold" data-testid={`link-schema-title-${s.slug}`}>
           {s.sector} <span style={{ color: 'var(--fg-muted)', fontWeight: 400 }}>·</span> {s.name}
         </Link>
       </div>
       <p className="mt-2 flex-1 text-[14px]" style={{ color: 'var(--fg-muted)' }}>{s.description}</p>
-      <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-[12px]" style={{ color: 'var(--fg-muted)' }}>
-        <span className="flex items-center gap-1.5">
-          <span className="dot" style={{ background: `var(--${s.slug})` }} />
-          {s.sector}
-        </span>
-        <span className="mono">{s.version}</span>
+      <div className="mt-3 flex flex-col items-start gap-2 text-[12px]" style={{ color: 'var(--fg-muted)' }}>
+        <div className="flex items-center gap-x-4">
+          <span className="flex items-center gap-1.5">
+            <span className="dot" style={{ background: `var(--${s.slug})` }} />
+            {s.sector}
+          </span>
+          <span className="mono">{s.version}</span>
+        </div>
         <span className="label">Open source · {s.licence}</span>
       </div>
       <div className="mt-4 flex flex-wrap gap-2 border-t pt-3">
