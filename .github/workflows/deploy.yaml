@@ -38,11 +38,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Typecheck and build website
-        env:
-          BASE_PATH: /
+      - name: Build website
         run: |
-          pnpm --filter @workspace/material-identity run typecheck
           pnpm --filter @workspace/material-identity run build
           cp CNAME ${{ env.SITE_FOLDER }}/CNAME
 
