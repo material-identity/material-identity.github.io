@@ -6,7 +6,7 @@ const TOC = [
   { id: 'purpose', label: 'Purpose' },
   { id: 'structure', label: 'Structure at a glance' },
   { id: 'forestry-source', label: 'ForestrySource' },
-  { id: 'forestry-record', label: 'Forestry' },
+  { id: 'forestry-output', label: 'ForestryOutput' },
   { id: 'features', label: 'Key features' },
   { id: 'tools', label: 'Tools' },
   { id: 'links', label: 'Field reference' },
@@ -23,13 +23,13 @@ function Table({ rows }: { rows: [string, string][] }) {
 
 export default function Forestry() {
   return (
-    <SchemaDoc path="/forestry" slug="forestry" sector="Forestry & Timber" title="ForestrySource and Forestry" version="v0.0.1" reference={SCHEMA_FOLDERS.forestry} toc={TOC}>
+    <SchemaDoc path="/forestry" slug="forestry" sector="Forestry & Timber" title="ForestrySource and ForestryOutput" version="v1.1.0 · v1.0.0" licence="CC BY 4.0" reference={SCHEMA_FOLDERS.forestry} toc={TOC}>
       <H2 id="purpose">Purpose</H2>
       <p>
         Standardized documentation of harvested wood from the forest to the final product, supporting the EU Deforestation Regulation (EUDR), the US Lacey Act and similar legal harvest and traceability requirements.
       </p>
       <H2 id="structure">Structure at a glance</H2>
-      <p>Two schemas work together: <code>ForestrySource</code> records origin at harvest, and <code>Forestry</code> records each supply chain transaction.</p>
+      <p>Two schemas work together: <code>ForestrySource</code> (v1.1.0) records origin at harvest, and <code>ForestryOutput</code> (v1.0.0) records each supply chain transaction. <code>ForestryOutput</code> replaces the earlier <code>Forestry</code> schema (v0.0.1).</p>
       <H3 id="forestry-source">ForestrySource: origin at harvest</H3>
       <Table rows={[
         ['Location', 'Country, state, forest concession'],
@@ -40,14 +40,14 @@ export default function Forestry() {
         ['Documents', 'Referenced by hash and URL'],
         ['Due diligence', 'Due diligence statement'],
       ]} />
-      <H3 id="forestry-record">Forestry: each supply chain transaction</H3>
+      <H3 id="forestry-output">ForestryOutput: each supply chain transaction</H3>
       <Table rows={[
         ['Transaction', 'Purchase or sales order, delivery, packing list, bill of lading, container and lot references'],
-        ['Products', 'Products in the transaction'],
+        ['Products', 'Products in the transaction, with measurements'],
         ['Parties', 'Supplier, producer, customer, creator'],
-        ['Documents', 'Certificate of origin, phytosanitary certificate, chain-of-custody certificate, Lacey Act PPQ 505'],
+        ['Documents', 'Certificate of origin, phytosanitary certificate, chain-of-custody certificate, Lacey Act PPQ 505, TSCA, CARB or CANFER certificate'],
         ['EUDR', 'Due diligence statement reference and verification number from EU TRACES'],
-        ['References', 'Earlier Forestry and ForestrySource records'],
+        ['References', 'Earlier ForestryOutput and ForestrySource records'],
         ['Due diligence', 'Due diligence statement'],
       ]} />
       <H2 id="features">Key features</H2>

@@ -230,6 +230,7 @@ export interface SchemaInfo {
   sector: string;
   name: string;
   version: string;
+  licence: string;
   description: string;
 }
 
@@ -239,6 +240,7 @@ export const SCHEMAS: SchemaInfo[] = [
     sector: 'Metals',
     name: 'EN 10168',
     version: 'v0.5.0',
+    licence: 'CC BY 4.0',
     description:
       'Steel inspection documents structured along the five information groups of EN 10168, with reusable components for chemistry, companies and measurements.',
   },
@@ -246,15 +248,17 @@ export const SCHEMAS: SchemaInfo[] = [
     slug: 'chemicals',
     sector: 'Chemicals & Plastics',
     name: 'Certificate of Analysis',
-    version: 'v1.0.0',
+    version: 'v1.1.0',
+    licence: 'Apache-2.0',
     description:
       'Certificates of analysis for plastics and other materials, with standardized property identifiers, multi-language rendering and hashed attachments.',
   },
   {
     slug: 'forestry',
     sector: 'Forestry & Timber',
-    name: 'ForestrySource and Forestry',
-    version: 'v0.0.1',
+    name: 'ForestrySource and ForestryOutput',
+    version: 'v1.1.0 · v1.0.0',
+    licence: 'CC BY 4.0',
     description:
       'Origin of harvested timber and its path through the supply chain, built for the EU Deforestation Regulation (EUDR) and the US Lacey Act.',
   },
@@ -276,7 +280,7 @@ export function SchemaCard({ s }: { s: SchemaInfo }) {
           {s.sector}
         </span>
         <span className="mono">{s.version}</span>
-        <span className="label">Open source · copyleft</span>
+        <span className="label">Open source · {s.licence}</span>
       </div>
       <div className="mt-4 flex flex-wrap gap-2 border-t pt-3">
         <Link href={`/${s.slug}`} className="btn" data-testid={`link-schema-docs-${s.slug}`}>

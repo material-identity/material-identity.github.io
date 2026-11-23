@@ -13,7 +13,7 @@ const TOC = [
 
 export default function Metals() {
   return (
-    <SchemaDoc path="/metals" slug="metals" sector="Metals" title="EN 10168" version="v0.5.0" reference={SCHEMA_FOLDERS.metals} toc={TOC}>
+    <SchemaDoc path="/metals" slug="metals" sector="Metals" title="EN 10168" version="v0.5.0" licence="CC BY 4.0" reference={SCHEMA_FOLDERS.metals} toc={TOC}>
       <H2 id="purpose">Purpose</H2>
       <p>
         The European standard EN 10168 defines the information carried by inspection documents for steel products, organised as five groups of numbered fields. This schema is a well-defined JSON representation that matches the standard, so each numbered field has one precise, machine-interpretable meaning.

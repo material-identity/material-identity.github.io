@@ -7,9 +7,9 @@ import { GITHUB_REPO } from '@/lib/pages';
 export interface TocItem { id: string; label: string }
 
 export function SchemaDoc({
-  path, slug, sector, title, version, reference, toc, children,
+  path, slug, sector, title, version, licence, reference, toc, children,
 }: {
-  path: string; slug: string; sector: string; title: string; version: string;
+  path: string; slug: string; sector: string; title: string; version: string; licence: string;
   reference: string; toc: TocItem[]; children: ReactNode;
 }) {
   usePageMeta(path);
@@ -60,7 +60,7 @@ export function SchemaDoc({
           <h1 className="mt-1 text-[28px] md:text-[32px]" data-testid="text-schema-title">{title}</h1>
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="label label-accent mono">{version}</span>
-            <span className="label">Open source · copyleft</span>
+            <span className="label">Open source · {licence}</span>
             <span className="label mono">JSON Schema</span>
           </div>
         </div>

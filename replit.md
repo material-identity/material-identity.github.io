@@ -38,7 +38,7 @@ The site explains the Global Schema and the narrower Metals, Chemicals and Fores
 
 - Keep this site static and hard-coded for later hosting on GitHub Pages; no backend, database, accounts, pricing, forms, or sales.
 - Use a GitHub documentation/repository appearance with system fonts, neutral borders, blue links, responsive navigation, and light/dark themes.
-- All schemas are open source under a copyleft licence; standards keep their identity and ownership.
+- All schemas are open source. Show each schema's own licence (CC BY 4.0 for EN 10168 and Forestry, Apache-2.0 for CoA); never call them copyleft. Standards keep their identity and ownership.
 
 ## Gotchas
 

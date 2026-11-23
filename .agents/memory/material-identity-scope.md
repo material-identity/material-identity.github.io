@@ -21,7 +21,7 @@ The user confirmed that the existing look and feel is great and asked for simple
 
 **How to apply:** Keep the homepage purpose-led and concise, with technical depth in the schema guides. Discussion drafts are guidance, not permission to introduce commercial schema offerings.
 
-Describe all schemas as open source under a copyleft licence. The Global Schema is the most generic, universal schema for any declaration; Metals, Chemicals and Forestry Material Schemas have narrower definitions. Existing industry standards retain their identity and ownership.
+Describe all schemas as open source and show each schema's own licence (CC BY 4.0 for EN 10168 and Forestry, Apache-2.0 for CoA); they are not copyleft. The Global Schema is the most generic, universal schema for any declaration; Metals, Chemicals and Forestry Material Schemas have narrower definitions. Existing industry standards retain their identity and ownership.
 
 **Why:** The user explicitly required these distinctions.
 

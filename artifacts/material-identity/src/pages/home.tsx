@@ -118,7 +118,7 @@ export default function Home() {
         <li>Propose a schema or share your expertise through <a href={GITHUB_ISSUES}>GitHub issues</a>.</li>
         <li>Improve existing definitions, report issues or contribute a translation per language.</li>
       </ul>
-      <p>All schemas, examples, translations and documentation are open source under a copyleft licence.</p>
+      <p>All schemas, examples, translations and documentation are open source, under the CC BY 4.0 or Apache-2.0 licence.</p>
       <div className="flex flex-wrap gap-2">
         <a href={GITHUB_ISSUES} className="btn" data-testid="link-issues"><GitHubIcon /> Contribute on GitHub</a>
         <a href={GITHUB_REPO} className="btn" data-testid="link-repo">View repository</a>

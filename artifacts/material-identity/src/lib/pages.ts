@@ -29,7 +29,7 @@ export const PAGES: PageMeta[] = [
   },
   {
     path: '/forestry',
-    title: 'Forestry & Timber · ForestrySource and Forestry schemas · Material Identity',
+    title: 'Forestry & Timber · ForestrySource and ForestryOutput schemas · Material Identity',
     description:
       'Open source JSON schemas documenting the origin of harvested timber and its path through the supply chain, built for the EU Deforestation Regulation (EUDR) and the US Lacey Act.',
   },
