@@ -48,9 +48,9 @@ const OLD_SITE_REDIRECTS: Record<string, string> = {
   'coa/index.html': '/chemicals',
   'en10168/index.html': '/metals',
   'en10168/v0.4.1.html': '/metals',
-  'imprint.html': '/imprint',
-  'privacy_policy.html': '/privacy_policy',
-  'terms_conditions.html': '/terms_conditions',
+  'imprint.html': '/imprint/',
+  'privacy_policy.html': '/privacy_policy/',
+  'terms_conditions.html': '/terms_conditions/',
 };
 
 function redirectHtml(target: string) {
