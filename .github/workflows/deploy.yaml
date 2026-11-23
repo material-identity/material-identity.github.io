@@ -1,0 +1,59 @@
+name: 'Deploy pages'
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: 24.x
+  SITE_FOLDER: artifacts/material-identity/dist/public
+
+jobs:
+  pages:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck and build website
+        env:
+          BASE_PATH: /
+        run: |
+          pnpm --filter @workspace/material-identity run typecheck
+          pnpm --filter @workspace/material-identity run build
+          cp CNAME ${{ env.SITE_FOLDER }}/CNAME
+
+      - name: Deploy website 🚀
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: JamesIves/github-pages-deploy-action@v4.6.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: github-pages
+          folder: ${{ env.SITE_FOLDER }}
+          target-folder: /
+          clean: true
+          clean-exclude: |
+            CNAME
