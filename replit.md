@@ -9,7 +9,7 @@ A static documentation website for Material Identity, an open-source, vendor-neu
 - Link to pages with a trailing slash (`/metals/`, `/imprint/`), never `/metals` or `/imprint.html`.
 - This repo holds one website, `artifacts/material-identity`. Do not add other artifacts (no `api-server`, no `mockup-sandbox`), no `lib/*` packages, no backend and no database.
 - Add a package only when the site needs it, and remove anything that becomes unused.
-- Commit changes on `main` in Replit and never push. A maintainer pushes the changes to a branch and opens the pull request on GitHub.
+- Commit on the branch that is currently checked out. Never push, never use Sync Changes, never switch, create or delete branches, and never publish or deploy from Replit. Nothing goes to `main` on GitHub from Replit: a maintainer pushes the commits to a separate branch and merges them through a pull request on GitHub.
 - The site is deployed by `.github/workflows/deploy.yaml` (GitHub Pages, materialidentity.org) on merge to `main`. Do not publish or deploy from Replit.
 - Keep the redirect pages for old addresses in `artifacts/material-identity/public/` working.
 
